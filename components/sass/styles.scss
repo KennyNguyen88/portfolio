@@ -1,4 +1,191 @@
 /*Trung*/
-@import "partials/app";
-@import "partials/app-details";
-@import "partials/app-items";
+//@import "partials/app";
+//@import "partials/app-details";
+//@import "partials/app-items";
+
+//variable
+$primary_color_yellow : #D3B113;
+$primary_color_white : #E1F0F5;
+$primary_color_black : #042E3A;
+
+$nav_bg: #373a3c;
+
+.hero {
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  &:before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .8;
+  }
+  .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.tr-btn-yellow{
+  background-color: $primary_color_yellow;
+  color: #000;
+}
+.tr-btn-transparent{
+  background-color: transparent;
+  border: 1px solid lighten($primary_color_white,20%);
+  color: darken($primary_color_black,30%);
+  &:hover{
+    background-color: $primary_color_white;
+    opacity: 0.5;
+  }
+}
+@mixin title-bold($color){
+  color: darken($color,10%);
+}
+.section-yellow{
+  background-color: $primary_color_yellow;
+  color: darken($primary_color_black,30%);
+  .title{
+    @include title-bold($primary_color_black);
+  }
+}
+.section-black{
+  background-color: $primary_color_black;
+  color: darken($primary_color_white,30%);
+  .title{
+    @include title-bold($primary_color_white);
+  }
+}
+body{
+  font-family: Roboto, Arial;
+}
+
+#header{
+  @extend .hero;
+  color: $primary_color_white;
+  span{
+    color: $primary_color_yellow;
+    font-weight: 500;
+  }
+  a{
+    margin-top: 10vh;
+    color: $primary_color_black;
+  }
+}
+nav{
+  background-color: rgba($nav_bg,0.1);
+  a{
+    color: $primary_color_white;
+    &:hover{
+      color: lighten($primary_color_white,40%);
+    }
+  }
+}
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+#services{
+  @extend .section-black;
+  .service-item{
+    i{
+      color: $primary_color_yellow;
+      font-size: 3rem;
+      margin-bottom: 1vh;
+    }
+    .title{
+      opacity: 1;
+    }
+  }
+  .services-components{
+    margin-top: 7vh;
+    a{
+      color: rgba($primary_color_white,90);
+      p{
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+#portfolios{
+  @extend .section-yellow;
+  .portfolios-components{
+    .row{
+      margin-top: 20px;
+    }
+  }
+}
+
+#aboutus{
+  @extend .section-black;
+  .about-content{
+    margin-top: 7vh;
+  }
+}
+
+#team{
+  @extend .section-yellow;
+  .team-components{
+    margin-top: 4vh;
+  }
+}
+
+#contact{
+  @extend .section-black;
+  .contact-components{
+    margin-top: 4vh;
+    a{
+      color: $primary_color_white;
+    }
+  }
+}
+#social{
+  margin-top: 2vh;
+  a{
+      color: $primary_color_white;
+
+    }
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.short-line{
+  @extend .center-block;
+  content: "";
+  border: 1.5px solid;
+  width: 50px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.short-line-yellow{
+  @extend .short-line;
+  border-color: rgba($primary_color_yellow,0.5);
+}
+.short-line-black{
+  @extend .short-line;
+  border-color: rgba($primary_color_black,0.5);
+}
+
+.team-components{
+  img{
+    margin-bottom: 2vh;
+  }
+  a{
+    color: $primary_color_black;
+    .job{
+      color: rgba($primary_color_black,0.5);
+    }
+  }
+
+}

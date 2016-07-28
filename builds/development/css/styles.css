@@ -1,130 +1,161 @@
 /*Trung*/
-/* Search Styles */
-.search {
-  width: 100%;
-  min-width: 320px;
-  max-width: 500px;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding: 20px 30px;
-  z-index: 20;
-}
-
-.search h1 {
-  margin-bottom: 10px;
-}
-
-.search label {
-  font-size: 1rem;
-  text-align: left;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
-}
-
-.search input {
-  width: 100%;
-  display: inline-block;
-  font-weight: 100;
-  padding: 15px;
-  margin: 5px 0;
-  font-size: 1.3rem;
-  color: #475B62;
-  border: 1px solid #C5C5C5;
-  border-radius: 4px;
-  outline: 0;
-}
-
-/* Artist List Styles */
-.artistlist {
-  position: absolute;
-  width: 30%;
-  min-width: 320px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  margin-bottom: 30px;
-  background: white;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  z-index: 10;
-}
-
-.artistlist ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-}
-
-.artistlist li {
-  padding: 10px 10px 0 10px;
-  border-bottom: 1px solid #999;
-  opacity: .9;
-  transition: all 0.3s ease-out;
-}
-
-.artistlist a {
-  display: block;
-  text-decoration: none;
-}
-
-.artistlist li:hover {
-  cursor: pointer;
-  background: #FDF6E3;
-  opacity: 1;
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.artistinfo {
-  position: absolute;
-  background: white;
-  width: 100%;
-  max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding: 30px 40px;
+.hero, #header {
+  background-size: cover;
+  height: 80vh;
   position: relative;
+}
+.hero:before, #header:before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: .8;
+}
+.hero .intro, #header .intro {
+  padding: 3rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tr-btn-yellow {
+  background-color: #D3B113;
+  color: #000;
+}
+
+.tr-btn-transparent {
+  background-color: transparent;
+  border: 1px solid white;
+  color: black;
+}
+.tr-btn-transparent:hover {
+  background-color: #E1F0F5;
+  opacity: 0.5;
+}
+
+.section-yellow, #portfolios, #team {
+  background-color: #D3B113;
+  color: black;
+}
+.section-yellow .title, #portfolios .title, #team .title {
+  color: #01080a;
+}
+
+.section-black, #services, #aboutus, #contact {
+  background-color: #042E3A;
+  color: #6eb7cf;
+}
+.section-black .title, #services .title, #aboutus .title, #contact .title {
+  color: #bbdde8;
+}
+
+body {
+  font-family: Roboto, Arial;
+}
+
+#header {
+  color: #E1F0F5;
+}
+#header span {
+  color: #D3B113;
+  font-weight: 500;
+}
+#header a {
+  margin-top: 10vh;
+  color: #042E3A;
+}
+
+nav {
+  background-color: rgba(55, 58, 60, 0.1);
+}
+nav a {
+  color: #E1F0F5;
+}
+nav a:hover {
+  color: white;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#services .service-item i {
+  color: #D3B113;
+  font-size: 3rem;
+  margin-bottom: 1vh;
+}
+#services .service-item .title {
   opacity: 1;
-  border: 1px solid #e8e8e8;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+#services .services-components {
+  margin-top: 7vh;
+}
+#services .services-components a {
+  color: #e1f0f5;
+}
+#services .services-components a p {
+  opacity: 0.5;
 }
 
-.artistinfo h1 {
-  font-size: 1.8em;
-  margin-bottom: 3px;
+#portfolios .portfolios-components .row {
+  margin-top: 20px;
 }
 
-.artistinfo h3 {
-  font-size: 1.7rem;
-  margin-bottom: 20px;
+#aboutus .about-content {
+  margin-top: 7vh;
 }
 
-.artistinfo .longbio {
-  font-size: 1.2rem;
-  font-weight: 300;
+#team .team-components {
+  margin-top: 4vh;
 }
 
-.artistinfo img {
-  width: 40%;
-  max-width: 130px;
-  float: left;
-  margin-right: 20px;
-  border-radius: 10px;
+#contact .contact-components {
+  margin-top: 4vh;
+}
+#contact .contact-components a {
+  color: #E1F0F5;
 }
 
-img {
+#social {
+  margin-top: 2vh;
+}
+#social a {
+  color: #E1F0F5;
+}
+
+.center-block, .short-line, .short-line-yellow, .short-line-black {
   display: block;
-  float: left;
-  width: 60px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h2 {
-  margin-top: 0;
+.short-line, .short-line-yellow, .short-line-black {
+  content: "";
+  border: 1.5px solid;
+  width: 50px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.short-line-yellow {
+  border-color: rgba(211, 177, 19, 0.5);
+}
+
+.short-line-black {
+  border-color: rgba(4, 46, 58, 0.5);
+}
+
+.team-components img {
+  margin-bottom: 2vh;
+}
+.team-components a {
+  color: #042E3A;
+}
+.team-components a .job {
+  color: rgba(4, 46, 58, 0.5);
 }

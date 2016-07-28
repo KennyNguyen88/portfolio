@@ -1,36 +1,260 @@
 <html>
 <head>
-    <title>Angular 2 QuickStart</title>
+    <title>Angular 2 Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/vendor/bootstrap4/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="js/lib/angular2/es6-shim.min.js"></script>
-    <script src="js/lib/angular2/system-polyfills.js"></script>
-    <script src="js/lib/angular2/angular2-polyfills.js"></script>
-    <script src="js/lib/angular2/system.src.js"></script>
-    <script src="js/lib/angular2/Rx.js"></script>
-    <script src="js/lib/angular2/angular2.dev.js"></script>
+    <!--<script src="js/lib/angular2/es6-shim.min.js"></script>-->
+    <!--<script src="js/lib/angular2/system-polyfills.js"></script>-->
+    <!--<script src="js/lib/angular2/angular2-polyfills.js"></script>-->
+    <!--<script src="js/lib/angular2/system.src.js"></script>-->
+    <!--<script src="js/lib/angular2/Rx.js"></script>-->
+    <!--<script src="js/lib/angular2/angular2.dev.js"></script>-->
 
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/tether.min.js"></script>
     <script src="js/lib/bootstrap.js"></script>
     <!--<script src="js/script.js"></script>-->
-    <script>
-        System.config({
-            packages: {
-                js: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
-        System.import('js/boot')
-                .then(null, console.error.bind(console));
-    </script>
+    <!--<script>-->
+        <!--System.config({-->
+            <!--packages: {-->
+                <!--js: {-->
+                    <!--format: 'register',-->
+                    <!--defaultExtension: 'js'-->
+                <!--}-->
+            <!--}-->
+        <!--});-->
+        <!--System.import('js/boot')-->
+                <!--.then(null, console.error.bind(console));-->
+    <!--</script>-->
 </head>
 <body>
-    <my-app>Loading...</my-app>
+    <!--<my-app>Loading...</my-app>-->
+    <div id="main_nav">
+        <nav class="navbar navbar-full navbar-fixed-top"> <!-- navbar-fixed-top -->
+            <a class="navbar-brand" href="#">Tempo</a>
+            <ul class="nav navbar-nav pull-xs-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div id="header" class="text-xs-center" style="background: url('images/hero.jpg') no-repeat center center;">
+            <div class="intro">
+                <h1 class="text-uppercase display-1">We Are <span>Tempo</span></h1>
+                <h4 class="text-uppercase">A creative digital agency from new york</h4>
+                <a href="#" class="btn tr-btn-yellow text-capitalize">Our Portfolio</a>
+            </div>
+        </div>
+        <section id="services">
+            <div class="container">
+                <div class="section-title text-xs-center">
+                    <h2 class="title">Our Services</h2>
+                    <div class="short-line-yellow "></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s                </p>
+                </div>
+                <div class="services-components">
+                    <div class="row">
+                        <a href="#">
+                            <div class="service-item col-sm-3 text-xs-center">
+                                <i class="fa fa-desktop" aria-hidden="true"></i>
+                                <p class="title text-uppercase">WEB DESIGN</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="service-item col-sm-3 text-xs-center">
+                                <i class="fa fa-cogs" aria-hidden="true"></i>
+                                <p class="title text-uppercase">APP DEVELOPMENT</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="service-item col-sm-3 text-xs-center">
+                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                <p class="title text-uppercase">MARKETING</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.                        </p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="service-item col-sm-3 text-xs-center">
+                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                <p class="title text-uppercase">BRANDING</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolios">
+            <div class="container">
+                <div class="section-title text-xs-center">
+                    <h2 class="title">Our Portfolio</h2>
+                    <div class="short-line-black"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="portfolios-components">
+                    <div class="row">
+                        <div class="filter text-xs-center">
+                            <a href="#" class="btn tr-btn-transparent">All</a>
+                            <a href="#" class="btn tr-btn-transparent">Web Design</a>
+                            <a href="#" class="btn tr-btn-transparent">App Development</a>
+                            <a href="#" class="btn tr-btn-transparent">Branding</a>
+                        </div>
+                    </div>
+                    <div class="components">
+                        <div class="row">
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                        </div>
+                        <div class="row">
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="portfolio-item col-xs-3"><a href="#"><img src="images/portfolio.jpg" alt="" class="img-fluid"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aboutus">
+            <div class="container">
+                <div class="section-title text-xs-center">
+                    <h2 class="title">About us</h2>
+                    <div class="short-line-yellow"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="about-content">
+                        <div class="row">
+                            <div class="content-left col-xs-6">
+                                <img class="img-fluid" src="images/portfolio-testimonial-image.png" alt="Generic placeholder image">
+                            </div>
+                            <div class="content-right col-xs-6">
+                                <h4 class="title">Who We Are</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <h4 class="title">What We Do</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section id="team" class="text-xs-center">
+            <div class="container">
+                <div class="section-title ">
+                    <h2 class="title">Meet the Team</h2>
+                    <div class="short-line-black"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="team-components">
+                    <div class="row">
+                        <a href="#">
+                            <div class="team-item col-xs-3 offset-xs-3">
+                                <img class="img-circle" src="images/Barot_Bellingham_tn.jpg" alt="">
+                                <p class="name">Nguyen Duc Trung</p>
+                                <p class="job">Developer</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="team-item col-xs-3">
+                                    <img class="img-circle" src="images/Barot_Bellingham_tn.jpg" alt="">
+                                    <p class="name">Chu Hai Long</p>
+                                    <p class="job">Developer</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="text-xs-center">
+            <div class="section-title ">
+                <h2>Contact us</h2>
+                <div class="short-line-yellow"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+            <div class="contact-components">
+                <div class="row">
+                    <a href="#">
+                        <div class="contact-item col-xs-4">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p class="address">
+                                Address
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="contact-item col-xs-4">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <p class="address">
+                                giatrangrua@gmail.com
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="contact-item col-xs-4">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <p class="address">
+                                +84 169 840 4430
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <ul id="social" class="nav nav-inline">
+                <li class="nav-item"><a href="#"><i class="nav-link fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="nav-item"><a href="#"><i class="nav-link fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

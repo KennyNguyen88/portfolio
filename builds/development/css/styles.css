@@ -16,7 +16,7 @@
   opacity: .8;
 }
 .hero .intro, #header .intro {
-  padding: 3rem;
+  padding: 1rem;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -37,6 +37,11 @@
   opacity: 0.5;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .section-yellow, #portfolios, #team {
   background-color: #D3B113;
   color: black;
@@ -55,6 +60,10 @@
 
 body {
   font-family: Roboto, Arial;
+}
+
+.navbar-toggler {
+  color: #E1F0F5;
 }
 
 #header {
@@ -105,6 +114,9 @@ section {
 #portfolios .portfolios-components .row {
   margin-top: 20px;
 }
+#portfolios .portfolios-components .portfolio-item {
+  margin-bottom: 1vh;
+}
 
 #aboutus .about-content {
   margin-top: 7vh;
@@ -120,12 +132,17 @@ section {
 #contact .contact-components a {
   color: #E1F0F5;
 }
+#contact .contact-components i {
+  font-size: 1.5rem;
+  color: #D3B113;
+}
 
 #social {
   margin-top: 2vh;
 }
 #social a {
   color: #E1F0F5;
+  font-size: 1.5rem;
 }
 
 .center-block, .short-line, .short-line-yellow, .short-line-black {
@@ -158,4 +175,24 @@ section {
 }
 .team-components a .job {
   color: rgba(4, 46, 58, 0.5);
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 544px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 28px;
+  }
 }

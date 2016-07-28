@@ -3,6 +3,10 @@
 //@import "partials/app-details";
 //@import "partials/app-items";
 
+@import "vendor/bootstrap4/mixins";
+@import "vendor/bootstrap4/variables";
+
+
 //variable
 $primary_color_yellow : #D3B113;
 $primary_color_white : #E1F0F5;
@@ -26,7 +30,7 @@ $nav_bg: #373a3c;
     opacity: .8;
   }
   .intro {
-    padding: 3rem;
+    padding: 1rem;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -44,6 +48,10 @@ $nav_bg: #373a3c;
     background-color: $primary_color_white;
     opacity: 0.5;
   }
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
 }
 @mixin title-bold($color){
   color: darken($color,10%);
@@ -64,6 +72,10 @@ $nav_bg: #373a3c;
 }
 body{
   font-family: Roboto, Arial;
+}
+
+.navbar-toggler{
+  color: $primary_color_white;
 }
 
 #header{
@@ -120,6 +132,9 @@ section{
     .row{
       margin-top: 20px;
     }
+    .portfolio-item{
+      margin-bottom: 1vh;
+    }
   }
 }
 
@@ -143,6 +158,11 @@ section{
     margin-top: 4vh;
     a{
       color: $primary_color_white;
+
+    }
+    i{
+      font-size: 1.5rem;
+      color: $primary_color_yellow;
     }
   }
 }
@@ -150,7 +170,7 @@ section{
   margin-top: 2vh;
   a{
       color: $primary_color_white;
-
+      font-size: 1.5rem;
     }
 }
 
@@ -188,4 +208,27 @@ section{
     }
   }
 
+}
+//Responsive
+
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
 }

@@ -5,7 +5,7 @@
 
 @import "vendor/bootstrap4/mixins";
 @import "vendor/bootstrap4/variables";
-
+@import "vendor/bootstrap4/type";
 
 //variable
 $primary_color_yellow : #D3B113;
@@ -88,6 +88,11 @@ body{
   a{
     margin-top: 10vh;
     color: $primary_color_black;
+    &:hover{
+      background-color: $primary_color_black;
+      color: $primary_color_yellow;
+      transition: all 0.5s;
+    }
   }
 }
 nav{
@@ -96,6 +101,10 @@ nav{
     color: $primary_color_white;
     &:hover{
       color: lighten($primary_color_white,40%);
+      //text-decoration: underline !important;
+      display: block;
+      border-bottom: 2px $primary_color_white solid;
+      transition: all 0.25s;
     }
   }
 }
@@ -110,10 +119,15 @@ section{
       color: $primary_color_yellow;
       font-size: 3rem;
       margin-bottom: 1vh;
+      &:hover{
+        color: $primary_color_white;
+        transition: all 0.5s;
+      }
     }
     .title{
       opacity: 1;
     }
+
   }
   .services-components{
     margin-top: 7vh;
@@ -169,9 +183,13 @@ section{
 #social{
   margin-top: 2vh;
   a{
-      color: $primary_color_white;
-      font-size: 1.5rem;
+    color: $primary_color_white;
+    font-size: 1.5rem;
+    &:hover{
+      color: $primary_color_yellow;
+      transition: all 0.25s;
     }
+  }
 }
 
 .center-block{

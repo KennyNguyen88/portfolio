@@ -6,14 +6,103 @@
 @import "vendor/bootstrap/mixins";
 @import "vendor/bootstrap/variables";
 @import "vendor/bootstrap/type";
-
+//reset
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+body{
+  font-family: Roboto, Arial;
+}
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 //variable
 $primary_color_yellow : #D3B113;
 $primary_color_white : #E1F0F5;
 $primary_color_black : #042E3A;
-
 $nav_bg: #373a3c;
-
+.tr-btn-yellow{
+  background-color: $primary_color_yellow;
+  color: $primary_color_black;
+  &:hover{
+    background-color: $primary_color_black;
+    color: $primary_color_yellow;
+    transition: all 0.25s;
+  }
+}
+.tr-btn-transparent{
+  border: 1px solid lighten($primary_color_white,20%);
+  background-color: transparent;
+  color: darken($primary_color_black,30%);
+  &:hover{
+    background-color: $primary_color_white;
+    opacity: 0.25;
+  }
+}
+.tr-span-highlight{
+  color: $primary_color_yellow;
+  font-weight: 500;
+}
+@mixin title-bold($color){
+  color: darken($color,10%);
+}
+.section-yellow{
+  background-color: $primary_color_yellow;
+  color: darken($primary_color_black,30%);
+  .title{
+//    @include title-bold($primary_color_black);
+    color: $primary_color_black;
+  }
+}
+.section-black{
+  background-color: $primary_color_black;
+  color: darken($primary_color_white,30%);
+  .title{
+//    @include title-bold($primary_color_yellow);
+    color: $primary_color_yellow;
+  }
+}
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.short-line{
+  @extend .center-block;
+  content: "";
+  border: 1.5px solid;
+  width: 150px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.short-line-yellow {
+  @extend .short-line;
+  border-color: rgba($primary_color_yellow, 1);
+}
+.short-line-black{
+  @extend .short-line;
+  border-color: rgba($primary_color_black,1);
+}
+//navigation
+nav{
+  background-color: rgba($nav_bg,0.1);
+  a{
+    color: $primary_color_white;
+    &:hover{
+      color: lighten($primary_color_white,40%);
+      //text-decoration: underline !important;
+      display: block;
+      border-bottom: 2px $primary_color_white solid;
+      transition: all 0.1s;
+    }
+  }
+}
+.navbar-toggler{
+  color: $primary_color_white;
+}
+//header
 .hero {
   background-size: cover;
   height: 80vh;
@@ -22,10 +111,7 @@ $nav_bg: #373a3c;
     content: '';
     height: 100%;
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 0;    right: 0;    bottom: 0;    left: 0;
     background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
     opacity: .8;
   }
@@ -36,110 +122,38 @@ $nav_bg: #373a3c;
     transform: translateY(-50%);
   }
 }
-.tr-btn-yellow{
-  background-color: $primary_color_yellow;
-  color: #000;
-}
-.tr-btn-transparent{
-  background-color: transparent;
-  border: 1px solid lighten($primary_color_white,20%);
-  color: darken($primary_color_black,30%);
-  &:hover{
-    background-color: $primary_color_white;
-    opacity: 0.5;
-  }
-}
-.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-}
-@mixin title-bold($color){
-  color: darken($color,10%);
-}
-.section-yellow{
-  background-color: $primary_color_yellow;
-  color: darken($primary_color_black,30%);
-  .title{
-    @include title-bold($primary_color_black);
-  }
-}
-.section-black{
-  background-color: $primary_color_black;
-  color: darken($primary_color_white,30%);
-  .title{
-    @include title-bold($primary_color_white);
-  }
-}
-body{
-  font-family: Roboto, Arial;
-}
-
-.navbar-toggler{
-  color: $primary_color_white;
-}
-
 #header{
   @extend .hero;
+  background: url('../../../images/hero.jpg') no-repeat center center;
   color: $primary_color_white;
-  span{
-    color: $primary_color_yellow;
-    font-weight: 500;
-  }
   a{
     margin-top: 10vh;
-    color: $primary_color_black;
-    &:hover{
-      background-color: $primary_color_black;
-      color: $primary_color_yellow;
-      transition: all 0.5s;
-    }
   }
 }
-nav{
-  background-color: rgba($nav_bg,0.1);
-  a{
-    color: $primary_color_white;
-    &:hover{
-      color: lighten($primary_color_white,40%);
-      //text-decoration: underline !important;
-      display: block;
-      border-bottom: 2px $primary_color_white solid;
-      transition: all 0.25s;
-    }
-  }
-}
-section{
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
+//services
 #services{
   @extend .section-black;
+  .services-components{
+    margin-top: 7vh;
+    a{
+      color: darken($primary_color_white,30);
+      &:hover{
+        .title, .service-item i, p{
+          color: $primary_color_white;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
   .service-item{
     i{
       color: $primary_color_yellow;
       font-size: 3rem;
       margin-bottom: 1vh;
-      &:hover{
-        color: $primary_color_white;
-        transition: all 0.5s;
-      }
-    }
-    .title{
-      opacity: 1;
-    }
-
-  }
-  .services-components{
-    margin-top: 7vh;
-    a{
-      color: rgba($primary_color_white,90);
-      p{
-        opacity: 0.5;
-      }
     }
   }
 }
-
+//porfolios
 #portfolios{
   @extend .section-yellow;
   .portfolios-components{
@@ -192,28 +206,8 @@ section{
   }
 }
 
-.center-block{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.short-line{
-  @extend .center-block;
-  content: "";
-  border: 1.5px solid;
-  width: 50px;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-}
 
-.short-line-yellow{
-  @extend .short-line;
-  border-color: rgba($primary_color_yellow,0.5);
-}
-.short-line-black{
-  @extend .short-line;
-  border-color: rgba($primary_color_black,0.5);
-}
+
 
 .team-components{
   img{

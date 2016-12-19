@@ -133,6 +133,100 @@ dl.row > dd + dt {
   clear: left;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  font-family: Roboto, Arial;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.tr-btn-yellow {
+  background-color: #D3B113;
+  color: #042E3A;
+}
+.tr-btn-yellow:hover {
+  background-color: #042E3A;
+  color: #D3B113;
+  transition: all 0.25s;
+}
+
+.tr-btn-transparent {
+  border: 1px solid white;
+  background-color: transparent;
+  color: black;
+}
+.tr-btn-transparent:hover {
+  background-color: #E1F0F5;
+  opacity: 0.25;
+}
+
+.tr-span-highlight {
+  color: #D3B113;
+  font-weight: 500;
+}
+
+.section-yellow, #portfolios, #team {
+  background-color: #D3B113;
+  color: black;
+}
+.section-yellow .title, #portfolios .title, #team .title {
+  color: #042E3A;
+}
+
+.section-black, #services, #aboutus, #contact {
+  background-color: #042E3A;
+  color: #6eb7cf;
+}
+.section-black .title, #services .title, #aboutus .title, #contact .title {
+  color: #D3B113;
+}
+
+.center-block, .short-line, .short-line-yellow, .short-line-black {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.short-line, .short-line-yellow, .short-line-black {
+  content: "";
+  border: 1.5px solid;
+  width: 150px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.short-line-yellow {
+  border-color: #d3b113;
+}
+
+.short-line-black {
+  border-color: #042e3a;
+}
+
+nav {
+  background-color: rgba(55, 58, 60, 0.1);
+}
+nav a {
+  color: #E1F0F5;
+}
+nav a:hover {
+  color: white;
+  display: block;
+  border-bottom: 2px #E1F0F5 solid;
+  transition: all 0.1s;
+}
+
+.navbar-toggler {
+  color: #E1F0F5;
+}
+
 .hero, #header {
   background-size: cover;
   height: 80vh;
@@ -156,105 +250,28 @@ dl.row > dd + dt {
   transform: translateY(-50%);
 }
 
-.tr-btn-yellow {
-  background-color: #D3B113;
-  color: #000;
-}
-
-.tr-btn-transparent {
-  background-color: transparent;
-  border: 1px solid white;
-  color: black;
-}
-.tr-btn-transparent:hover {
-  background-color: #E1F0F5;
-  opacity: 0.5;
-}
-
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.section-yellow, #portfolios, #team {
-  background-color: #D3B113;
-  color: black;
-}
-.section-yellow .title, #portfolios .title, #team .title {
-  color: #01080a;
-}
-
-.section-black, #services, #aboutus, #contact {
-  background-color: #042E3A;
-  color: #6eb7cf;
-}
-.section-black .title, #services .title, #aboutus .title, #contact .title {
-  color: #bbdde8;
-}
-
-body {
-  font-family: Roboto, Arial;
-}
-
-.navbar-toggler {
-  color: #E1F0F5;
-}
-
 #header {
+  background: url("../../../images/hero.jpg") no-repeat center center;
   color: #E1F0F5;
-}
-#header span {
-  color: #D3B113;
-  font-weight: 500;
 }
 #header a {
   margin-top: 10vh;
-  color: #042E3A;
-}
-#header a:hover {
-  background-color: #042E3A;
-  color: #D3B113;
-  transition: all 0.5s;
 }
 
-nav {
-  background-color: rgba(55, 58, 60, 0.1);
-}
-nav a {
-  color: #E1F0F5;
-}
-nav a:hover {
-  color: white;
-  display: block;
-  border-bottom: 2px #E1F0F5 solid;
-  transition: all 0.25s;
-}
-
-section {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
-
-#services .service-item i {
-  color: #D3B113;
-  font-size: 3rem;
-  margin-bottom: 1vh;
-}
-#services .service-item i:hover {
-  color: #E1F0F5;
-  transition: all 0.5s;
-}
-#services .service-item .title {
-  opacity: 1;
-}
 #services .services-components {
   margin-top: 7vh;
 }
 #services .services-components a {
-  color: #e1f0f5;
+  color: #6eb7cf;
 }
-#services .services-components a p {
-  opacity: 0.5;
+#services .services-components a:hover .title, #services .services-components a:hover .service-item i, #services .services-components a:hover p {
+  color: #E1F0F5;
+  transition: all 0.5s;
+}
+#services .service-item i {
+  color: #D3B113;
+  font-size: 3rem;
+  margin-bottom: 1vh;
 }
 
 #portfolios .portfolios-components .row {
@@ -293,28 +310,6 @@ section {
 #social a:hover {
   color: #D3B113;
   transition: all 0.25s;
-}
-
-.center-block, .short-line, .short-line-yellow, .short-line-black {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.short-line, .short-line-yellow, .short-line-black {
-  content: "";
-  border: 1.5px solid;
-  width: 50px;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-}
-
-.short-line-yellow {
-  border-color: rgba(211, 177, 19, 0.5);
-}
-
-.short-line-black {
-  border-color: rgba(4, 46, 58, 0.5);
 }
 
 .team-components img {

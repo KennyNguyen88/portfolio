@@ -90,7 +90,6 @@ nav{
     color: $primary_color_white;
     &:hover{
       color: lighten($primary_color_white,40%);
-      //text-decoration: underline !important;
       display: block;
       border-bottom: 2px $primary_color_white solid;
       transition: all 0.1s;
@@ -235,6 +234,11 @@ nav{
 //Responsive
 html {
   font-size: 14px;
+}
+@include media-breakpoint-up(xs) {
+  nav {
+    background-color: rgba($nav_bg,0.8);
+  }
 }
 @include media-breakpoint-up(sm) {
   html {

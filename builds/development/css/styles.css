@@ -329,6 +329,10 @@ html {
   font-size: 14px;
 }
 
+nav {
+  background-color: rgba(55, 58, 60, 0.8);
+}
+
 @media (min-width: 576px) {
   html {
     font-size: 16px;

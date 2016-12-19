@@ -222,6 +222,9 @@ nav a:hover {
   border-bottom: 2px #E1F0F5 solid;
   transition: all 0.1s;
 }
+nav a.navbar-brand:hover {
+  border-bottom: 0;
+}
 
 .navbar-toggler {
   color: #E1F0F5;
@@ -258,13 +261,13 @@ nav a:hover {
   margin-top: 10vh;
 }
 
-#services .services-components {
+#services .services-component {
   margin-top: 7vh;
 }
-#services .services-components a {
+#services .services-component a {
   color: #6eb7cf;
 }
-#services .services-components a:hover .title, #services .services-components a:hover .service-item i, #services .services-components a:hover p {
+#services .services-component a:hover .title, #services .services-component a:hover .service-item i, #services .services-component a:hover p {
   color: #E1F0F5;
   transition: all 0.5s;
 }
@@ -274,10 +277,10 @@ nav a:hover {
   margin-bottom: 1vh;
 }
 
-#portfolios .portfolios-components .row {
+#portfolios .portfolios-component .row {
   margin-top: 20px;
 }
-#portfolios .portfolios-components .portfolio-item {
+#portfolios .portfolios-component .portfolio-item {
   margin-bottom: 1vh;
 }
 
@@ -285,8 +288,18 @@ nav a:hover {
   margin-top: 7vh;
 }
 
-#team .team-components {
+#team .team-component {
   margin-top: 4vh;
+}
+#team .team-component a {
+  color: black;
+}
+#team .team-component a .name {
+  margin-top: 1rem;
+}
+#team .team-component a:hover p {
+  color: #E1F0F5;
+  transition: all 0.5s;
 }
 
 #contact .contact-components {
@@ -310,16 +323,6 @@ nav a:hover {
 #social a:hover {
   color: #D3B113;
   transition: all 0.25s;
-}
-
-.team-components img {
-  margin-bottom: 2vh;
-}
-.team-components a {
-  color: #042E3A;
-}
-.team-components a .job {
-  color: rgba(4, 46, 58, 0.5);
 }
 
 html {

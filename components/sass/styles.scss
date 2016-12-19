@@ -52,7 +52,6 @@ $nav_bg: #373a3c;
   background-color: $primary_color_yellow;
   color: darken($primary_color_black,30%);
   .title{
-//    @include title-bold($primary_color_black);
     color: $primary_color_black;
   }
 }
@@ -60,7 +59,6 @@ $nav_bg: #373a3c;
   background-color: $primary_color_black;
   color: darken($primary_color_white,30%);
   .title{
-//    @include title-bold($primary_color_yellow);
     color: $primary_color_yellow;
   }
 }
@@ -96,6 +94,9 @@ nav{
       display: block;
       border-bottom: 2px $primary_color_white solid;
       transition: all 0.1s;
+    }
+    &.navbar-brand:hover{
+      border-bottom: 0;
     }
   }
 }
@@ -133,7 +134,7 @@ nav{
 //services
 #services{
   @extend .section-black;
-  .services-components{
+  .services-component{
     margin-top: 7vh;
     a{
       color: darken($primary_color_white,30);
@@ -156,7 +157,7 @@ nav{
 //porfolios
 #portfolios{
   @extend .section-yellow;
-  .portfolios-components{
+  .portfolios-component{
     .row{
       margin-top: 20px;
     }
@@ -165,21 +166,33 @@ nav{
     }
   }
 }
-
+//aboutus
 #aboutus{
   @extend .section-black;
   .about-content{
     margin-top: 7vh;
   }
 }
-
+//team
 #team{
   @extend .section-yellow;
-  .team-components{
+  .team-component{
     margin-top: 4vh;
+    a{
+      color: darken($primary_color_black,30%);
+      & .name{
+        margin-top: 1rem;
+      }
+      &:hover{
+        p{
+          color: $primary_color_white;
+          transition: all 0.5s;
+        }
+      }
+    }
   }
 }
-
+//contact
 #contact{
   @extend .section-black;
   .contact-components{
@@ -194,6 +207,7 @@ nav{
     }
   }
 }
+//social
 #social{
   margin-top: 2vh;
   a{
@@ -205,40 +219,33 @@ nav{
     }
   }
 }
+//.team-component{
+//  img{
+//    margin-bottom: 2vh;
+//  }
+//  a{
+//    color: $primary_color_black;
+//    .job{
+//      color: rgba($primary_color_black,0.5);
+//    }
+//  }
+//
+//}
 
-
-
-
-.team-components{
-  img{
-    margin-bottom: 2vh;
-  }
-  a{
-    color: $primary_color_black;
-    .job{
-      color: rgba($primary_color_black,0.5);
-    }
-  }
-
-}
 //Responsive
-
 html {
   font-size: 14px;
 }
-
 @include media-breakpoint-up(sm) {
   html {
     font-size: 16px;
   }
 }
-
 @include media-breakpoint-up(md) {
   html {
     font-size: 20px;
   }
 }
-
 @include media-breakpoint-up(lg) {
   html {
     font-size: 28px;

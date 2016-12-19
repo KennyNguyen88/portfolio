@@ -12,31 +12,28 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     tscConfig = require('./tsconfig.json')
     ;
-
 var env,
-    jsSources,
-    sassSources,
-    htmlSources,
-    jsonSources,
+    jsSrc,
+    sassSrc,
+    htmlSrc,
+    jsonSrc,
     outputDir,
     sassStyle,
     bootstrap,
     tsSrc;
-
 env = process.env.NODE_ENV || 'development';
-
-tsSrc = 'components/ts/';
 
 if (env==='development') {
     outputDir = 'builds/development/';
     sassStyle = 'expanded';
-    bootstrap = 'bootstrap.js';  
+    bootstrap = 'bootstrap.js';
 } else {
     outputDir = 'builds/production/';
     sassStyle = 'compressed';
     bootstrap = 'bootstrap.min.js';
 }
-jsSources = [
+tsSrc = 'components/ts/';
+jsSrc = [
     // 'components/scripts/app.component.js',
     // 'components/scripts/artist.js',
     // 'components/scripts/aartist-details.component.js',
@@ -44,15 +41,15 @@ jsSources = [
     // // 'components/scripts/boot.js',
     // 'components/scripts/search-pipe.js'
 ];
-
-sassSources = [
-  'components/sass/vendor/bootstrap4/bootstrap.scss',
+sassSrc = [
+  'components/sass/vendor/bootstrap/bootstrap.scss',
   'components/sass/styles.scss'
 ];
-htmlSources = [outputDir + '*.html'];
-jsonSources = [outputDir + 'js/*.json'];
+htmlSrc = [outputDir + '*.html'];
+jsonSrc = [outputDir + 'js/*.json'];
 
-gulp.task('copyAngular2Libs', function() {
+//Angular 2 JS Copy
+gulp.task('LibAngular', function() {
   return gulp
       .src([
         'node_modules/es6-shim/es6-shim.min.js',
@@ -64,17 +61,25 @@ gulp.task('copyAngular2Libs', function() {
       ])
       .pipe(gulp.dest(outputDir + 'js/lib/angular2'))
 });
-
-gulp.task('copyLib', function() {
+//Bootstrap 4 JS Copy
+gulp.task('LibBootstrapJS', function() {
     return gulp
         .src([
-            'components/scripts/vendor/bootstrap4/'+bootstrap,
             'node_modules/jquery/dist/jquery.min.js',
-            'node_modules/tether/dist/js/tether.min.js'
+            'node_modules/tether/dist/js/tether.min.js', //require for bootstrap
+            'node_modules/bootstrap/dist/js/bootstrap.min.js'
         ])
         .pipe(gulp.dest(outputDir + 'js/lib/'))
 });
-
+//Bootstrap 4 SASS Copy
+gulp.task('LibBootstrapCSS', function() {
+    return gulp
+        .src([
+            'node_modules/bootstrap/scss/**/*'
+        ])
+        .pipe(gulp.dest('components/sass/vendor/bootstrap/'))
+});
+//typescript to javascript
 gulp.task('typescript', function () {
   return gulp
       .src(tsSrc + '**/*.ts')
@@ -84,17 +89,17 @@ gulp.task('typescript', function () {
       .pipe(gulp.dest('components/scripts/'))
       .pipe(gulp.dest(outputDir + 'js/'));
 });
-
+//combine javascript
 gulp.task('js', function() {
-  gulp.src(jsSources)
+  gulp.src(jsSrc)
     .pipe(concat('script.js'))
     .pipe(browserify())
     .pipe(gulpif(env === 'production', uglify()))
     .pipe(gulp.dest(outputDir + 'js'))
 });
-
+//sass to css
 gulp.task('compass', function() {
-  gulp.src(sassSources)
+  gulp.src(sassSrc)
     .pipe(compass({
       sass: 'components/sass',
       image: outputDir + 'images',
@@ -103,19 +108,19 @@ gulp.task('compass', function() {
     .on('error', gutil.log))
     .pipe(gulp.dest(outputDir + 'css'))
 });
-
+//html
 gulp.task('html', function() {
   gulp.src('builds/development/*.html')
       .pipe(gulpif(env === 'production', minifyHTML()))
       .pipe(gulpif(env === 'production', gulp.dest(outputDir)))
 });
-
+//json
 gulp.task('json', function() {
   gulp.src('builds/development/js/*.json')
       .pipe(gulpif(env === 'production', jsonminify()))
       .pipe(gulpif(env === 'production', gulp.dest('builds/production/js')))
 });
-
+//webserver for instant reload changes
 gulp.task('webserver', function() {
   gulp.src('builds/development/')
       .pipe(webserver({
@@ -123,12 +128,14 @@ gulp.task('webserver', function() {
         open: true
       }));
 });
-
+//watch and reload
 gulp.task('watch', function() {
     gulp.watch('builds/development/*.html', ['html']);
     gulp.watch('components/sass/*.scss', ['compass']);
     gulp.watch(tsSrc + '**/*.ts', ['typescript']);
-    gulp.watch(jsSources, ['js']);
+    gulp.watch(jsSrc, ['js']);
     gulp.watch('builds/development/js/*.json', ['json']);
 });
-gulp.task('default', ['copyAngular2Libs', 'copyLib', 'typescript',  'js', 'compass' ,'html', 'json', 'webserver', 'watch']);
+
+gulp.task('libcopy', ['LibAngular', 'LibBootstrapJS','LibBootstrapCSS']);
+gulp.task('default', ['typescript', 'js','compass' ,'html', 'json', 'webserver', 'watch']);

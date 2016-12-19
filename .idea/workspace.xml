@@ -1,10 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4be9a353-cc86-484b-b189-799b4de5ea39" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/images/hero.jpg" afterPath="$PROJECT_DIR$/builds/development/images/hero.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="4be9a353-cc86-484b-b189-799b4de5ea39" name="Default" comment="gulp task update bootstrap 4">
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\css\vendor\bootstrap4\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\fonts\fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\builds\development\js\lib\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\.scss-lint.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_breadcrumb.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_button-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_card.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_custom-forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_custom.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_images.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_input-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_responsive-embed.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_tags.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\bootstrap-flex.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\bootstrap-grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\bootstrap-reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_breakpoints.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_cards.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_hover.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_navbar-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_pulls.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_reset-filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_tab-focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_tag.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_text-hide.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\mixins\_text-truncate.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_background.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_display.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_flex.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_pulls.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_screenreaders.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_spacing.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_text.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\sass\vendor\bootstrap4\utilities\_visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\button.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\portfolio\components\scripts\vendor\bootstrap4\util.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/angular2/Rx.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/angular2/Rx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/angular2/angular2-polyfills.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/angular2/angular2-polyfills.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/angular2/angular2.dev.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/angular2/angular2.dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/app.component.js.map" afterPath="$PROJECT_DIR$/builds/development/js/app.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/app.component.js.map" afterPath="$PROJECT_DIR$/components/scripts/app.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/app.component.js" afterPath="$PROJECT_DIR$/builds/development/js/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/app.component.js" afterPath="$PROJECT_DIR$/components/scripts/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/artist-details.component.js.map" afterPath="$PROJECT_DIR$/builds/development/js/artist-details.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/artist-details.component.js.map" afterPath="$PROJECT_DIR$/components/scripts/artist-details.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/artist-details.component.js" afterPath="$PROJECT_DIR$/builds/development/js/artist-details.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/artist-details.component.js" afterPath="$PROJECT_DIR$/components/scripts/artist-details.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/artist-item.component.js.map" afterPath="$PROJECT_DIR$/builds/development/js/artist-item.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/artist-item.component.js.map" afterPath="$PROJECT_DIR$/components/scripts/artist-item.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/artist-item.component.js" afterPath="$PROJECT_DIR$/builds/development/js/artist-item.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/artist-item.component.js" afterPath="$PROJECT_DIR$/components/scripts/artist-item.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/artist.js.map" afterPath="$PROJECT_DIR$/builds/development/js/artist.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/artist.js.map" afterPath="$PROJECT_DIR$/components/scripts/artist.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/artist.js" afterPath="$PROJECT_DIR$/builds/development/js/artist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/artist.js" afterPath="$PROJECT_DIR$/components/scripts/artist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/boot.js.map" afterPath="$PROJECT_DIR$/builds/development/js/boot.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/boot.js.map" afterPath="$PROJECT_DIR$/components/scripts/boot.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/boot.js" afterPath="$PROJECT_DIR$/builds/development/js/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/boot.js" afterPath="$PROJECT_DIR$/components/scripts/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/angular2/es6-shim.min.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/angular2/es6-shim.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/index.d.ts" afterPath="$PROJECT_DIR$/typings/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/angular-protractor/index.d.ts" afterPath="$PROJECT_DIR$/typings/globals/angular-protractor/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/core-js/index.d.ts" afterPath="$PROJECT_DIR$/typings/globals/core-js/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/jasmine/index.d.ts" afterPath="$PROJECT_DIR$/typings/globals/jasmine/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/node/index.d.ts" afterPath="$PROJECT_DIR$/typings/globals/node/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/selenium-webdriver/index.d.ts" afterPath="$PROJECT_DIR$/typings/globals/selenium-webdriver/index.d.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/index.html" afterPath="$PROJECT_DIR$/builds/development/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/jquery.min.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/search-pipe.js.map" afterPath="$PROJECT_DIR$/builds/development/js/search-pipe.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/search-pipe.js.map" afterPath="$PROJECT_DIR$/components/scripts/search-pipe.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/search-pipe.js" afterPath="$PROJECT_DIR$/builds/development/js/search-pipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/scripts/search-pipe.js" afterPath="$PROJECT_DIR$/components/scripts/search-pipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/css/styles.css" afterPath="$PROJECT_DIR$/builds/development/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/sass/styles.scss" afterPath="$PROJECT_DIR$/components/sass/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/angular2/system-polyfills.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/angular2/system-polyfills.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/angular2/system.src.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/angular2/system.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/lib/tether.min.js" afterPath="$PROJECT_DIR$/builds/development/js/lib/tether.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/angular-protractor/typings.json" afterPath="$PROJECT_DIR$/typings/globals/angular-protractor/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/core-js/typings.json" afterPath="$PROJECT_DIR$/typings/globals/core-js/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/jasmine/typings.json" afterPath="$PROJECT_DIR$/typings/globals/jasmine/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/node/typings.json" afterPath="$PROJECT_DIR$/typings/globals/node/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/selenium-webdriver/typings.json" afterPath="$PROJECT_DIR$/typings/globals/selenium-webdriver/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="porfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,17 +174,20 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="porfolio" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builds/development/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188">
-              <caret line="181" column="51" selection-start-line="181" selection-start-column="51" selection-end-line="181" selection-end-column="51" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1496">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -48,12 +205,35 @@
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="4182">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
-                <element signature="e#755#816#0" expanded="false" />
-                <element signature="e#836#1047#0" expanded="false" />
+                <element signature="e#752#813#0" expanded="false" />
+                <element signature="e#833#1044#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.9310346" vertical-offset="129" max-vertical-offset="2176">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="e#1474#1888#0" expanded="false" />
+                <element signature="e#2529#2782#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6514286" vertical-offset="333" max-vertical-offset="765">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,18 +246,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/components/sass/partials/app.scss" />
         <option value="$PROJECT_DIR$/components/sass/partials/app-items.scss" />
         <option value="$PROJECT_DIR$/components/sass/partials/app-details.scss" />
         <option value="$PROJECT_DIR$/components/ts/artist-details.component.ts" />
         <option value="$PROJECT_DIR$/components/ts/artist-item.component.ts" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/components/ts/app.component.ts" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/components/sass/styles.scss" />
         <option value="$PROJECT_DIR$/builds/development/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -91,10 +271,31 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -117,95 +318,208 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="builds" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builds" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="porfolio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="builds" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="D:\soft\Installed\Node\node.exe" />
+    <property name="prop_add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -214,40 +528,34 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
-      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
+    <list size="0" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -256,7 +564,6 @@
       <changelist id="4be9a353-cc86-484b-b189-799b4de5ea39" name="Default" comment="" />
       <created>1469426706758</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1469426706758</updated>
       <workItem from="1469426708523" duration="13045000" />
       <workItem from="1469506792621" duration="1417000" />
@@ -272,21 +579,18 @@
     <task id="LOCAL-00001" summary="static - responsive - mobile">
       <created>1469677969788</created>
       <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1469677969788</updated>
     </task>
     <task id="LOCAL-00002" summary="static - responsive - tablet">
       <created>1469679987792</created>
       <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1469679987792</updated>
     </task>
     <task id="LOCAL-00003" summary="static - responsive - finish">
       <created>1469761499216</created>
       <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1469761499216</updated>
     </task>
@@ -306,29 +610,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19888888" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33295584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33105803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20499243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -343,10 +649,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
     <MESSAGE value="static - responsive - mobile" />
     <MESSAGE value="static - responsive - tablet" />
     <MESSAGE value="static - responsive - finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="static - responsive - finish" />
+    <MESSAGE value="gulp task update bootstrap 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="gulp task update bootstrap 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -355,48 +665,77 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1241">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builds/development/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2261" max-vertical-offset="4182">
+          <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
+          <folding>
+            <element signature="e#752#813#0" expanded="false" />
+            <element signature="e#833#1044#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/artist-item.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="e#755#816#0" expanded="false" />
-            <element signature="e#836#1047#0" expanded="false" />
+            <element signature="e#752#813#0" expanded="false" />
+            <element signature="e#833#1044#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builds/development/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -413,60 +752,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/boot.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/artist-item.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="e#755#816#0" expanded="false" />
-            <element signature="e#836#1047#0" expanded="false" />
+            <element signature="e#752#813#0" expanded="false" />
+            <element signature="e#833#1044#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builds/development/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -483,222 +815,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="133" column="50" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="e#755#816#0" expanded="false" />
-            <element signature="e#836#1047#0" expanded="false" />
+            <element signature="e#752#813#0" expanded="false" />
+            <element signature="e#833#1044#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/bootstrap-grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builds/development/js/lib/angular2/systemjs.config.js" />
-    <entry file="file://$PROJECT_DIR$/systemjs.config.js" />
     <entry file="file://$PROJECT_DIR$/typings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/scripts/artist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/scripts/app.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/builds/development/js/script.js" />
     <entry file="file://$PROJECT_DIR$/builds/development/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/sass/partials/_app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/sass/partials/_app-details.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/sass/partials/_app-items.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/search-pipe.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/artist.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/artist-details.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ts/partials/app.html" />
     <entry file="file://$PROJECT_DIR$/components/ts/artist-item.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ts/boot.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/octicons/lib/octicons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="285" column="10" selection-start-line="285" selection-start-column="10" selection-end-line="285" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/mixins/_breakpoints.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap4/_type.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builds/development/css/vendor/bootstrap4/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="3922" column="3" selection-start-line="3922" selection-start-column="3" selection-end-line="3922" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,21 +948,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/sass/styles.scss">
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-          <folding>
-            <element signature="e#755#816#0" expanded="false" />
-            <element signature="e#836#1047#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.35207102" vertical-offset="0" max-vertical-offset="340">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.96154" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builds/development/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="181" column="51" selection-start-line="181" selection-start-column="51" selection-end-line="181" selection-end-column="51" />
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -732,6 +978,52 @@
             <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/sass/vendor/bootstrap/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="4182">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#752#813#0" expanded="false" />
+            <element signature="e#833#1044#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9310346" vertical-offset="129" max-vertical-offset="2176">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#1474#1888#0" expanded="false" />
+            <element signature="e#2529#2782#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6514286" vertical-offset="333" max-vertical-offset="731">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

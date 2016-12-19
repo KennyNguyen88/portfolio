@@ -33,3 +33,7 @@ node_modules
 *.css.map
 
 
+/builds/development/js/lib/
+/builds/development/css/vendor/
+/components/sass/vendor/
+/components/scripts/vendor/

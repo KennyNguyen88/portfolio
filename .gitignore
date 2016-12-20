@@ -37,3 +37,4 @@ node_modules
 /builds/development/css/vendor/
 /components/sass/vendor/
 /components/scripts/vendor/
+/builds/production/

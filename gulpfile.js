@@ -22,6 +22,7 @@ var env,
     bootstrap,
     tsSrc;
 env = process.env.NODE_ENV || 'development';
+//env = 'production';
 
 if (env==='development') {
     outputDir = 'builds/development/';

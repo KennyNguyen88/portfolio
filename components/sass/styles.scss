@@ -13,6 +13,7 @@
 }
 body{
   font-family: Roboto, Arial;
+  font-size: 14px;
 }
 section{
   padding-top: 10vh;
@@ -23,6 +24,7 @@ $primary_color_yellow : #D3B113;
 $primary_color_white : #E1F0F5;
 $primary_color_black : #042E3A;
 $nav_bg: #373a3c;
+
 .tr-btn-yellow{
   background-color: $primary_color_yellow;
   color: $primary_color_black;
@@ -218,19 +220,12 @@ nav{
     }
   }
 }
-//.team-component{
-//  img{
-//    margin-bottom: 2vh;
-//  }
-//  a{
-//    color: $primary_color_black;
-//    .job{
-//      color: rgba($primary_color_black,0.5);
-//    }
-//  }
-//
-//}
-
+//team
+.team-component{
+  img{
+    max-width: 200px;
+  }
+}
 //Responsive
 html {
   font-size: 14px;
@@ -253,5 +248,25 @@ html {
 @include media-breakpoint-up(lg) {
   html {
     font-size: 28px;
+  }
+}
+
+/*************** CV ******************/
+$cv_primary_bg: #2BA3DC;
+
+//cv_header
+#cv_header{
+  background: $cv_primary_bg;
+  color: darken($primary_color_white,10%);
+  span{
+    color: $primary_color_white;
+  }
+  ul{
+    list-style: none;
+//    padding-left: 0;
+    li{
+      display: inline-block;
+    }
+
   }
 }

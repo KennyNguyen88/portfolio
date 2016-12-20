@@ -140,6 +140,7 @@ dl.row > dd + dt {
 
 body {
   font-family: Roboto, Arial;
+  font-size: 14px;
 }
 
 section {
@@ -325,6 +326,10 @@ nav a.navbar-brand:hover {
   transition: all 0.25s;
 }
 
+.team-component img {
+  max-width: 200px;
+}
+
 html {
   font-size: 14px;
 }
@@ -347,4 +352,18 @@ nav {
   html {
     font-size: 28px;
   }
+}
+/*************** CV ******************/
+#cv_header {
+  background: #2BA3DC;
+  color: #bbdde8;
+}
+#cv_header span {
+  color: #E1F0F5;
+}
+#cv_header ul {
+  list-style: none;
+}
+#cv_header ul li {
+  display: inline-block;
 }

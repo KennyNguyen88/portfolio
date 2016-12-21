@@ -38,3 +38,4 @@ node_modules
 /components/sass/vendor/
 /components/scripts/vendor/
 /builds/production/
+/builds/development/images/

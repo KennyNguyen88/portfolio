@@ -22,32 +22,29 @@ var env,
     bootstrap,
     tsSrc;
 env = process.env.NODE_ENV || 'development';
-//env = 'production';
-
-if (env==='development') {
+htmlSrc = [outputDir + '*.html'];
+jsonSrc = [outputDir + 'js/*.json'];
+gulp.task('set-env-dev', function() {
+    env = 'development';
     outputDir = 'builds/development/';
     sassStyle = 'expanded';
     bootstrap = 'bootstrap.js';
-} else {
+});
+
+gulp.task('set-env-prod', function() {
+    env = 'production';
     outputDir = 'builds/production/';
     sassStyle = 'compressed';
     bootstrap = 'bootstrap.min.js';
-}
+});
 tsSrc = 'components/ts/';
 jsSrc = [
     // 'components/scripts/app.component.js',
-    // 'components/scripts/artist.js',
-    // 'components/scripts/aartist-details.component.js',
-    // 'components/scripts/artist-item.component.js',
-    // // 'components/scripts/boot.js',
-    // 'components/scripts/search-pipe.js'
 ];
 sassSrc = [
   'components/sass/vendor/bootstrap/bootstrap.scss',
   'components/sass/styles.scss'
 ];
-htmlSrc = [outputDir + '*.html'];
-jsonSrc = [outputDir + 'js/*.json'];
 
 //Angular 2 JS Copy
 gulp.task('LibAngular', function() {
@@ -140,3 +137,6 @@ gulp.task('watch', function() {
 
 gulp.task('libcopy', ['LibAngular', 'LibBootstrapJS','LibBootstrapCSS']);
 gulp.task('default', ['typescript', 'js','compass' ,'html', 'json', 'webserver', 'watch']);
+
+
+gulp.task('build_for_prod', ['set-env-prod','typescript', 'js','compass' ,'html', 'json']);

@@ -1,6 +1,6 @@
 /*Trung*/
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .summary .title, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -16,7 +16,7 @@ h2, .h2 {
   font-size: 2rem;
 }
 
-h3, .h3 {
+h3, .h3, .summary .title {
   font-size: 1.75rem;
 }
 
@@ -140,7 +140,6 @@ dl.row > dd + dt {
 
 body {
   font-family: Roboto, Arial;
-  font-size: 14px;
 }
 
 section {
@@ -363,7 +362,73 @@ nav {
 }
 #cv_header ul {
   list-style: none;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 #cv_header ul li {
   display: inline-block;
+  margin-left: 2rem;
+}
+
+.cv_name {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.summary .title {
+  border-bottom: 2px #2BA3DC solid;
+  line-height: 150%;
+}
+.summary .title span.square {
+  display: block;
+  width: 2rem;
+  height: 100%;
+  float: left;
+  background: #2BA3DC;
+  margin-right: 1.5rem;
+}
+.summary .sub-title {
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+
+.padleft35 {
+  padding-left: 3.5rem;
+}
+
+.marleft35 {
+  margin-left: 3.5rem;
+}
+
+#info-box {
+  background: #aedcf2;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#info-box ul {
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#info-box .title {
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+#info-box .content {
+  font-size: medium;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #daeff9;
+}
+
+#skill {
+  border-right: 2px solid #2BA3DC;
+}
+#skill .row:nth-child(2) {
+  margin-top: 1rem;
+}
+#skill .fa-circle:before {
+  color: #2BA3DC;
 }

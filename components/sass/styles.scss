@@ -180,10 +180,12 @@ nav{
     margin-top: 4vh;
     a{
       color: darken($primary_color_black,30%);
+      text-decoration: none;
       & .name{
         margin-top: 1rem;
       }
       &:hover{
+
         p{
           color: $primary_color_white;
           transition: all 0.5s;
@@ -191,6 +193,10 @@ nav{
       }
     }
   }
+}
+
+.modal-dialog{
+  max-width: 80%;
 }
 //contact
 #contact{
@@ -330,12 +336,15 @@ $cv_primary_bg: #2BA3DC;
   border-right: 2px solid $cv_primary_bg;
 }
 
-#cv_body{
-  .fa-circle:before{
-    color: $cv_primary_bg;
-  }
-}
+//#cv_body{
+//  .fa-circle:before{
+//    color: $cv_primary_bg;
+//  }
+//}
 
+.fa-circle:before{
+  color: $cv_primary_bg;
+}
 .row.skill-group{
   margin-top: 1rem;
 }

@@ -293,6 +293,7 @@ nav a.navbar-brand:hover {
 }
 #team .team-component a {
   color: black;
+  text-decoration: none;
 }
 #team .team-component a .name {
   margin-top: 1rem;
@@ -300,6 +301,10 @@ nav a.navbar-brand:hover {
 #team .team-component a:hover p {
   color: #E1F0F5;
   transition: all 0.5s;
+}
+
+.modal-dialog {
+  max-width: 80%;
 }
 
 #contact .contact-components {
@@ -427,7 +432,7 @@ nav {
   border-right: 2px solid #2BA3DC;
 }
 
-#cv_body .fa-circle:before {
+.fa-circle:before {
   color: #2BA3DC;
 }
 

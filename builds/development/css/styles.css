@@ -298,6 +298,9 @@ nav a.navbar-brand:hover {
 #team .team-component a .name {
   margin-top: 1rem;
 }
+#team .team-component a:hover {
+  cursor: hand;
+}
 #team .team-component a:hover p {
   color: #E1F0F5;
   transition: all 0.5s;

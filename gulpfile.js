@@ -117,6 +117,7 @@ gulp.task('json', function() {
   gulp.src('builds/development/js/*.json')
       .pipe(gulpif(env === 'production', jsonminify()))
       .pipe(gulpif(env === 'production', gulp.dest('builds/production/js')))
+      .on('error', gutil.log)
 });
 //webserver for instant reload changes
 gulp.task('webserver', function() {
@@ -136,7 +137,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('libcopy', ['LibAngular', 'LibBootstrapJS','LibBootstrapCSS']);
-gulp.task('default', ['typescript', 'js','compass' ,'html', 'json', 'webserver', 'watch']);
+gulp.task('default', ['set-env-dev','typescript', 'js','compass' ,'html', 'json', 'webserver', 'watch']);
 
 
 gulp.task('build_for_prod', ['set-env-prod','typescript', 'js','compass' ,'html', 'json']);

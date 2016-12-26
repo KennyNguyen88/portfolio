@@ -196,7 +196,7 @@ nav{
 }
 
 .modal-dialog{
-  max-width: 80%;
+  max-width: 90%;
 }
 //contact
 #contact{
@@ -260,7 +260,7 @@ html {
 $cv_primary_bg: #2BA3DC;
 
 //cv_header
-#cv_header{
+.cv_header, #cv_header{
   background: $cv_primary_bg;
   color: darken($primary_color_white,10%);
   span{

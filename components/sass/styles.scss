@@ -327,11 +327,15 @@ $cv_primary_bg: #2BA3DC;
   background-color: lighten($cv_primary_bg,40%);
 }
 #skill{
-  .row:nth-child(2){
-    margin-top: 1rem;
-  }
+  border-right: 2px solid $cv_primary_bg;
+}
+
+#cv_body{
   .fa-circle:before{
     color: $cv_primary_bg;
   }
-  border-right: 2px solid $cv_primary_bg;
+}
+
+.row.skill-group{
+  margin-top: 1rem;
 }

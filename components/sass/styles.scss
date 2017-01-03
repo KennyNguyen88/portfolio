@@ -3,9 +3,15 @@
 //@import "partials/app-details";
 //@import "partials/app-items";
 
-@import "vendor/bootstrap/mixins";
-@import "vendor/bootstrap/variables";
-@import "vendor/bootstrap/type";
+//@import "vendor/bootstrap/mixins";
+//@import "vendor/bootstrap/variables";
+//@import "vendor/bootstrap/type";
+
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/type";
+
+
 //reset
 .container-fluid{
   padding-left: 0;
@@ -89,11 +95,12 @@ nav{
   background-color: rgba($nav_bg,0.1);
   a{
     color: $primary_color_white;
+    border-bottom: 2px transparent solid;
     &:hover{
       color: lighten($primary_color_white,40%);
       display: block;
       border-bottom: 2px $primary_color_white solid;
-      transition: all 0.1s;
+      transition: all 0.5s;
     }
     &.navbar-brand:hover{
       border-bottom: 0;

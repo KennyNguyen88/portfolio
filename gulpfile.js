@@ -28,37 +28,23 @@ gulp.task('set-env-dev', function() {
     env = 'development';
     outputDir = 'builds/development/';
     sassStyle = 'expanded';
-    bootstrap = 'bootstrap.js';
+
 });
 
 gulp.task('set-env-prod', function() {
     env = 'production';
     outputDir = 'builds/production/';
     sassStyle = 'compressed';
-    bootstrap = 'bootstrap.min.js';
+
 });
 tsSrc = 'components/ts/';
 jsSrc = [
-    // 'components/scripts/app.component.js',
+    'components/scripts/site.js',
 ];
 sassSrc = [
-  'components/sass/vendor/bootstrap/bootstrap.scss',
   'components/sass/styles.scss'
 ];
 
-//Angular 2 JS Copy
-gulp.task('LibAngular', function() {
-  return gulp
-      .src([
-        'node_modules/es6-shim/es6-shim.min.js',
-        'node_modules/systemjs/dist/system-polyfills.js',
-        'node_modules/angular2/bundles/angular2-polyfills.js',
-        'node_modules/systemjs/dist/system.src.js',
-        'node_modules/rxjs/bundles/Rx.js',
-        'node_modules/angular2/bundles/angular2.dev.js'
-      ])
-      .pipe(gulp.dest(outputDir + 'js/lib/angular2'))
-});
 //Bootstrap 4 JS Copy
 gulp.task('LibBootstrapJS', function() {
     return gulp
@@ -69,13 +55,13 @@ gulp.task('LibBootstrapJS', function() {
         ])
         .pipe(gulp.dest(outputDir + 'js/lib/'))
 });
-//Bootstrap 4 SASS Copy
+//Bootstrap 4 CSS Copy
 gulp.task('LibBootstrapCSS', function() {
     return gulp
         .src([
-            'node_modules/bootstrap/scss/**/*'
+            'node_modules/bootstrap/css/bootstrap.css'
         ])
-        .pipe(gulp.dest('components/sass/vendor/bootstrap/'))
+        .pipe(gulp.dest(outputDir + 'css/vendor/bootstrap/'))
 });
 //typescript to javascript
 gulp.task('typescript', function () {
@@ -136,8 +122,8 @@ gulp.task('watch', function() {
     gulp.watch('builds/development/js/*.json', ['json']);
 });
 
-gulp.task('libcopy', ['LibAngular', 'LibBootstrapJS','LibBootstrapCSS']);
-gulp.task('default', ['set-env-dev','typescript', 'js','compass' ,'html', 'json', 'webserver', 'watch']);
+gulp.task('libcopy', ['LibBootstrapJS','LibBootstrapCSS']);
+gulp.task('default', ['set-env-dev','libcopy','typescript', 'js','compass' ,'html', 'json', 'webserver', 'watch']);
 
 
-gulp.task('build_for_prod', ['set-env-prod','typescript', 'js','compass' ,'html', 'json']);
+gulp.task('build_for_prod', ['set-env-prod','libcopy','typescript', 'js','compass' ,'html', 'json']);

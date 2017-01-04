@@ -46,19 +46,19 @@ $(function() {
         e.preventDefault();
         showAll();
     });
-    $("#action_filter_WD").click(function(){
+    $("#action_filter_WD").click(function(e){
         e.preventDefault();
         showWebDesign();
     });
-    $("#action_filter_WV").click(function(){
+    $("#action_filter_WV").click(function(e){
         e.preventDefault();
         showWebDevelop();
     });
-    $("#action_filter_MpA").click(function(){
+    $("#action_filter_MpA").click(function(e){
         e.preventDefault();
         showMultiPlatform();
     });
-    $("#action_filter_MA").click(function(){
+    $("#action_filter_MA").click(function(e){
         e.preventDefault();
         showMobile();
     });

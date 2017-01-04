@@ -143,15 +143,15 @@ nav{
   @extend .section-black;
   .services-component{
     margin-top: 7vh;
-    a{
-      color: darken($primary_color_white,30);
-      &:hover{
-        .title, .service-item i, p{
-          color: $primary_color_white;
-          transition: all 0.5s;
-        }
-      }
-    }
+    //a{
+    //  color: darken($primary_color_white,30);
+    //  &:hover{
+    //    .title, .service-item i, p{
+    //      color: $primary_color_white;
+    //      transition: all 0.5s;
+    //    }
+    //  }
+    //}
   }
   .service-item{
     i{

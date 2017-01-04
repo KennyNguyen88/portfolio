@@ -1,3 +1,33 @@
+function showAll(){
+    $(".WD").show("slow");
+    $(".WV").show("slow");
+    $(".MpA").show("slow");
+    $(".MA").show("slow");
+}
+function showWebDesign(){
+    $(".WD").show("slow");
+    $(".WV").hide("slow");
+    $(".MpA").hide("slow");
+    $(".MA").hide("slow");
+}
+function showWebDevelop(){
+    $(".WD").hide("slow");
+    $(".WV").show("slow");
+    $(".MpA").hide("slow");
+    $(".MA").hide("slow");
+}
+function showMultiPlatform(){
+    $(".WD").hide("slow");
+    $(".WV").hide("slow");
+    $(".MpA").show("slow");
+    $(".MA").hide("slow");
+}
+function showMobile(){
+    $(".WD").hide("slow");
+    $(".WV").hide("slow");
+    $(".MpA").hide("slow");
+    $(".MA").show("slow");
+}
 $(function() {
     //smooth page scroll to an anchor on the same page
     $('a[href*="#"]:not([href="#"])').click(function() {
@@ -11,5 +41,25 @@ $(function() {
                 return false;
             }
         }
+    });
+    $("#action_filter_All").click(function(e){
+        e.preventDefault();
+        showAll();
+    });
+    $("#action_filter_WD").click(function(){
+        e.preventDefault();
+        showWebDesign();
+    });
+    $("#action_filter_WV").click(function(){
+        e.preventDefault();
+        showWebDevelop();
+    });
+    $("#action_filter_MpA").click(function(){
+        e.preventDefault();
+        showMultiPlatform();
+    });
+    $("#action_filter_MA").click(function(){
+        e.preventDefault();
+        showMobile();
     });
 });

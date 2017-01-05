@@ -42,6 +42,7 @@ $(function() {
             }
         }
     });
+    $('[data-toggle="tooltip"]').tooltip();
     $("#action_filter_All").click(function(e){
         e.preventDefault();
         showAll();

@@ -39,3 +39,4 @@ node_modules
 /components/scripts/vendor/
 /builds/production/
 /builds/development/images/
+/css

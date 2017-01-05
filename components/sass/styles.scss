@@ -364,7 +364,7 @@ $cv_primary_bg: #2BA3DC;
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
+  cursor: hand;
 }
 
 .hovereffect .overlay {
@@ -445,4 +445,8 @@ $cv_primary_bg: #2BA3DC;
 .hovereffect:hover a.info {
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
+}
+.tooltip-inner{
+  font-family: Roboto, Arial;
+  font-size: small;
 }

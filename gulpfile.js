@@ -59,7 +59,7 @@ gulp.task('LibBootstrapJS', function() {
 gulp.task('LibBootstrapCSS', function() {
     return gulp
         .src([
-            'node_modules/bootstrap/css/bootstrap.css'
+            'node_modules/bootstrap/dist/css/bootstrap.css'
         ])
         .pipe(gulp.dest(outputDir + 'css/vendor/bootstrap/'))
 });
@@ -124,6 +124,4 @@ gulp.task('watch', function() {
 
 gulp.task('libcopy', ['LibBootstrapJS','LibBootstrapCSS']);
 gulp.task('default', ['set-env-dev','libcopy','typescript', 'js','compass' ,'html', 'json', 'webserver', 'watch']);
-
-
 gulp.task('build_for_prod', ['set-env-prod','libcopy','typescript', 'js','compass' ,'html', 'json']);

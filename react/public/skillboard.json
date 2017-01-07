@@ -1,0 +1,132 @@
+{
+  "data":[
+    {
+      "title": "Design",
+      "skills": [
+        {
+          "title": "ADOBE ILLUSTRATOR",
+          "score": "3"
+        },
+        {
+          "title": "ADOBE PHOTOSHOP",
+          "score": "2"
+        },
+        {
+          "title": "ADOBE AFTER EFFECT",
+          "score": "2"
+        }
+      ]
+    },
+    {
+      "title": "Front-end",
+      "skills": [
+        {
+          "title": "HTML",
+          "score": "5"
+        },
+        {
+          "title": "CSS",
+          "score": "4"
+        },
+        {
+          "title": "SASS",
+          "score": "4"
+        },
+        {
+          "title": "LESS",
+          "score": "3"
+        },
+        {
+          "title": "BOOTSTRAP",
+          "score": "4"
+        },
+        {
+          "title": "JAVASCRIPT",
+          "score": "4"
+        },
+        {
+          "title": "REACTJS",
+          "score": "2"
+        },
+        {
+          "title": "ANGULARJS 2",
+          "score": "2"
+        }
+
+
+      ]
+    },
+    {
+      "title": "Back-end",
+      "skills": [
+        {
+          "title": "JAVA",
+          "score": "4"
+        },
+        {
+          "title": "PHP",
+          "score": "4"
+        },
+        {
+          "title": "C#",
+          "score": "3"
+        },
+        {
+          "title": "VB.NET",
+          "score": "3"
+        }
+      ]
+    },
+    {
+      "title": "Database",
+      "skills": [
+        {
+          "title": "Oracle",
+          "score": "4"
+        },
+        {
+          "title": "SQL Server",
+          "score": "4"
+        },
+        {
+          "title": "My SQL",
+          "score": "3"
+        }
+      ]
+    },
+    {
+      "title": "CMS & Office",
+      "skills": [
+        {
+          "title": "Laravel",
+          "score": "3"
+        },
+        {
+          "title": "Wordpress",
+          "score": "4"
+        },
+        {
+          "title": "Microsoft",
+          "score": "4"
+        }
+      ]
+    },
+    {
+      "title": "Personal Skills",
+      "skills": [
+        {
+          "title": "Creativity",
+          "score": "4"
+        },
+        {
+          "title": "Leadership",
+          "score": "3"
+        },
+        {
+          "title": "Organization",
+          "score": "4"
+        }
+      ]
+    }
+  ]
+}

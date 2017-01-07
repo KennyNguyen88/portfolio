@@ -1,0 +1,93 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+/*************** CV ******************/
+$cv_primary_bg: #2BA3DC;
+$primary_color_white : #E1F0F5;
+//cv_header
+.cv_header, #cv_header{
+  background: $cv_primary_bg;
+  color: darken($primary_color_white,10%);
+  span{
+    color: $primary_color_white;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    li{
+      display: inline-block;
+      margin-left: 2rem;
+    }
+  }
+}
+
+.cv_name{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.summary {
+  .title{
+    @extend .h3;
+    border-bottom: 2px $cv_primary_bg solid;
+    line-height: 150%;
+    span.square{
+      display: block;
+      width: 2rem;
+      height: 100%;
+      float: left;
+      background: $cv_primary_bg;
+      margin-right: 1.5rem;
+    }
+  }
+  .sub-title{
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+  }
+}
+
+.padleft35{
+  padding-left: 3.5rem;
+}
+
+.marleft35{
+  margin-left: 3.5rem;
+}
+
+#info-box{
+  background: lighten($cv_primary_bg,30%);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  ul{
+    list-style: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .title{
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+  }
+  .content{
+    font-size: medium;
+  }
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+  background-color: lighten($cv_primary_bg,40%);
+}
+#skill{
+  border-right: 2px solid $cv_primary_bg;
+}
+
+//#cv_body{
+//  .fa-circle:before{
+//    color: $cv_primary_bg;
+//  }
+//}
+
+.fa-circle:before{
+  color: $cv_primary_bg;
+}
+.row.skill-group{
+  margin-top: 1rem;
+}

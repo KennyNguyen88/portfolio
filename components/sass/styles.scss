@@ -1,17 +1,5 @@
 /*Trung*/
-//@import "partials/app";
-//@import "partials/app-details";
-//@import "partials/app-items";
-
-//@import "vendor/bootstrap/mixins";
-//@import "vendor/bootstrap/variables";
-//@import "vendor/bootstrap/type";
-
-@import "../../node_modules/bootstrap/scss/mixins";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/type";
-
-
+@import "../../node_modules/bootstrap/scss/bootstrap";
 //reset
 .container-fluid{
   padding-left: 0;

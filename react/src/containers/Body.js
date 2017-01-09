@@ -14,7 +14,7 @@ class Body extends Component {
                 <Container>
                     <Row id="cv_name">
                         <Col xs="12">
-                            <h1 className="display-4 text-uppercase text-xs-center">Nguyen Duc Trung</h1>
+                            <h1 className="display-4 text-uppercase text-xs-center">CHU HAI LONG</h1>
                             <h1 className="display-4 text-uppercase text-xs-center">Developer</h1>
                         </Col>
                     </Row>
@@ -25,7 +25,8 @@ class Body extends Component {
                             <Row>
                                 <Col xs="12" className="summary ">
                                     <div className="title"><span className="square">&nbsp;</span> Summary</div>
-                                    <p className="padleft35">I am a Developer with over 6 years of professional experiences in senior position developer for enterpirse system. I have many experiences working with Manufacturing Execution System and Oracle ERP. A person with great passion in Designing and Developing Website. </p>
+                                    <p className="padleft35">I'm a software developer working at Phu My Industrial Zone, my current position is developer and maintenance Quality Controll system of Posco SS-Vina Co.,ltd.
+                                        I am also care about web developer, you can see a my website project as <a href="http://vungchuatravel.com">vungchuatravel.com</a>. This project base on HTML5, CSS3, bootstrap, Jquery and Laravel Php framework. </p>
                                 </Col>
                             </Row>
                             <Row>
@@ -34,20 +35,16 @@ class Body extends Component {
                                     <Table striped>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">2010 - 2014</th>
-                                                <td>POSCO ICT VN, Viet Nam<br/><span className="font-italic job">Developer - Manufacturing Execution System</span></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2015 - Present</th>
-                                                <td>POSCO ICT VN, Viet Nam<br/><span className="font-italic job">Assistant Manager - Oracle ERP WIP</span></td>
+                                                <th scope="row">2012 - 2013</th>
+                                                <td>Nha Vung Tau Co.,ltd.<br/><span className="font-italic job">IT Manager</span></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2014 - Present</th>
-                                                <td>Website Developer<br/><span className="font-italic job">Freelancer</span></td>
+                                                <td>Posco ICT Viet Nam Co.,ltd.<br/><span className="font-italic job">Software Engineer</span></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">2015 - Present</th>
-                                                <td>Website Designer<br/><span className="font-italic job">Freelancer</span></td>
+                                                <th scope="row">Freelancer</th>
+                                                <td>Vung Chua Travel Co.,ltd.<br/><span className="font-italic job">Vung Chua Travel Website vungchuatravel.com</span></td>
                                             </tr>
                                         </tbody>
                                     </Table>
@@ -58,17 +55,17 @@ class Body extends Component {
                             <ul>
                                 <li>
                                     <p className="title">Address</p>
-                                    <p className="content">Ho Chi Minh City<br/>Viet Nam</p>
+                                    <p className="content">Vung Tau City<br/>Viet Nam</p>
                                 </li>
                                 <li>
                                     <p className="title">Contact</p>
-                                    <p className="content"><span>Phone</span> +84 169 8404 430</p>
+                                    <p className="content"><span>Phone</span> +84 984 462 007</p>
                                 </li>
                                 <li>
                                     <p className="title">Link</p>
-                                    <p className="content">Email<br/> giatrangrua@gmail.com</p>
+                                    <p className="content">Email<br/> chuhailong89@gmail.com</p>
                                     <p className="content">Website<br/> www.pnpteam.net</p>
-                                    <p className="content">Facebook<br/> fb.com/kenny.nguyen.7739</p>
+                                    <p className="content">Facebook<br/> fb.com/ChuHaiLong</p>
                                 </li>
                             </ul>
                         </Col>
@@ -88,26 +85,11 @@ class Body extends Component {
                                             <Table striped>
                                                 <tbody>
                                                     <tr>
-                                                        <td>University of Natural Sciences, Ho Chi Minh City, Vietnam<br/><span>Bachelor of Information Technology</span></td>
+                                                        <td>Higher Diploma in Software Engineering<br/><span>HaNoi Aptech Computer Education</span></td>
+                                                        <td>2008 - 2012</td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col md="6">
-                                            <Skillboard boardTitle={SkillBoard[2].title} boardSkills={SkillBoard[2].skills}/>
-                                        </Col>
-                                        <Col md="6">
-                                            <Skillboard boardTitle={SkillBoard[3].title} boardSkills={SkillBoard[3].skills}/>
-                                        </Col>
-                                    </Row>
-                                    <Row className="skill-group">
-                                        <Col md="6">
-                                            <Skillboard boardTitle={SkillBoard[4].title} boardSkills={SkillBoard[2].skills}/>
-                                        </Col>
-                                        <Col md="6">
-                                            <Skillboard boardTitle={SkillBoard[5].title} boardSkills={SkillBoard[2].skills}/>
                                         </Col>
                                     </Row>
                                 </Col>

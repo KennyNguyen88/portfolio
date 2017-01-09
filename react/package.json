@@ -62,7 +62,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
-  "homepage": "http://www.pnpteam.net/trung/",
+  "homepage": "http://www.pnpteam.net/long/",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"

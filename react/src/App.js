@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
         <Container fluid>
-          <Header phone="(+84)169 8404 430" email="giatrangrua@gmail.com" />
+          <Header phone="(+84)0984 462 007" email="chuhailong89@gmail.com" />
             {this.state.data.length > 0 ? <Body data={this.state.data}/> : ''}
       </Container>
     );

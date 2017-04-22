@@ -31,6 +31,7 @@ node_modules
 ### Sass template
 .sass-cache/
 *.css.map
+/.idea/
 
 
 /builds/development/js/
@@ -38,3 +39,4 @@ node_modules
 /builds/development/images/
 /builds/production/
 /css/
+/builds/development/fonts/

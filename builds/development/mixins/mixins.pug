@@ -1,0 +1,11 @@
+mixin showdot(name, point)
+    - var y = 1;
+    - var n = 1;
+    .col-xs-12.col-md-6.text-xs-left= name
+    .col-xs-12.col-md-6
+        while y <= point
+            i.fa.fa-circle(aria-hidden="true")
+            - y++
+        while n <= (5-point)
+            i.fa.fa-circle-thin(aria-hidden="true")
+            - n++

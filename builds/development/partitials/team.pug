@@ -1,0 +1,216 @@
+include ../mixins/mixins
+section#team.text-xs-center
+    .container
+        .section-title
+            h2.title Meet The Team
+            .short-line-black
+        .team-component
+            .row
+                .team-item.col-xs-12.col-sm-6
+                    a(data-toggle="modal" data-target="#trung_cv")
+                        img.rounded-circle(src="images/Trung_Port.png")
+                    ul.nav
+                        li.nav-item Nguyen Duc Trung
+                        li.nav-item Developer
+                        ul.nav.nav-inline
+                            li.nav-item #[i.nav-link.fa.fa-envelope-0(aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="giatrangrua@gmail.com")]
+                            li.nav-item #[i.nav-link.fa.fa-phone(aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="+84 169 8404 430")]
+                            li.nav-item #[i.nav-link.fa.fa-facebook(aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="")]
+
+                .modal.fade#trung_cv(tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+                    .modal-dialog(role="document")
+                        .modal-content
+                            .modal-body
+                                .container-fluid
+                                    .row.cv_header
+                                        .col-xs-12
+                                            ul.float-sm-right
+                                                li #[span Phone:] (+84)169 8404 430
+                                                li #[span Email:] giatrangrua@gmail.com
+                                    .row
+                                        .cv_name.col-xs-12
+                                            .display-4.text-uppercase.text-xs-center Nguyen Duc Trung
+                                                .display-4.text-capitalize.text-xs-center.medium Developer
+                                    .row
+                                        .col-xs-12.summary
+                                            .title #[span.square(style="height: auto") &nbsp;] Summary
+                                            p.padleft35 I am a Developer with over 6 years of professional experiences in senior position developer for enterpirse system. I have many experiences working with Manufacturing Execution System and Oracle ERP. A person with great passion in Designing and Developing Website.
+                                    .row
+                                        .col-xs-12.summary
+                                            .title #[span.square(style="height: auto") &nbsp;] Experiences
+                                            table.table.table-striped
+                                                tbody
+                                                    tr
+                                                        th(scope="row") 2010 - 2014
+                                                        td POSCO ICT VN, Viet Nam #[br] #[span.font-italic.job Developer - Manufacturing Execution System]
+                                                    tr
+                                                        th(scope="row") 2015 - Present
+                                                        td POSCO ICT VN, Viet Nam #[br] #[span.font-italic.job Assistant Manager - Oracle ERP WIP]
+                                                    tr
+                                                        th(scope="row") 2014 - Present
+                                                        td Website Developer #[br] #[span.font-italic.job Freelancer]
+                                                    tr
+                                                        th(scope="row") 2015 - Present
+                                                        td Website Designer #[br] #[span.font-italic.job Freelancer]
+                                    .row
+                                        .col-xs-12.summary
+                                            .title #[span.square(style="height: auto") &nbsp;] Skills & Education
+                                            .row
+                                                .skill.col-xs-4
+                                                    .row.skill-group
+                                                        .col-xs-12
+                                                            p.sub-title Design
+                                                        .col-xs-12
+                                                            .row
+                                                                .col-xs-12
+                                                                    .row
+                                                                        +showdot("ADOBE ILLUSTRATOR",3)
+                                                                    .row
+                                                                        +showdot("ADOBE PHOTOSHOP",2)
+                                                                    .row
+                                                                        +showdot("ADOBE AFTER EFFECT",2)
+                                                    .row.skill-group
+                                                        .col-xs-12
+                                                            p.sub-title Front-end
+                                                        .col-xs-12
+                                                            .row
+                                                                +showdot("HTML",5)
+                                                                +showdot("CSS",4)
+                                                                +showdot("SASS",4)
+                                                                +showdot("LESS",3)
+                                                                +showdot("BOOTSTRAP",4)
+                                                                +showdot("JAVASCRIPT",4)
+                                                                +showdot("REACT.JS",2)
+                                                                +showdot("ANGULARJS 2",2)
+                                                .col-xs-8.education
+                                                    .row
+                                                        .col-xs-12
+                                                            p.sub-title Education
+                                                            table.table.table-striped
+                                                                tbody
+                                                                    tr
+                                                                        td University of Natural Sciences, Ho Chi Minh City, Vietnam #[br] #[span Bachelor of Information Technology]
+                                                    .row
+                                                        .col-xs-6
+                                                            .row
+                                                                .col-xs-12
+                                                                    p.sub-title Back-end
+                                                                .col-xs-12
+                                                                    .row
+                                                                        +showdot("JAVA",4)
+                                                                        +showdot("PHP",4)
+                                                                        +showdot("C#",3)
+                                                                        +showdot("VB.NET",3)
+                                                        .col-xs-6
+                                                            .row
+                                                                .col-xs-12
+                                                                    p.sub-title Database
+                                                                .col-xs-12
+                                                                    .row
+                                                                        +showdot("Oracle",4)
+                                                                        +showdot("SQL Server",4)
+                                                                        +showdot("MySQL",3)
+                                                    .row.skill-group
+                                                        .col-xs-6
+                                                            .row
+                                                                .col-xs-12
+                                                                    p.sub-title CMS & Office
+                                                                .col-xs-12
+                                                                    .row
+                                                                        +showdot("Laravel",3)
+                                                                        +showdot("Wordpress",4)
+                                                                        +showdot("Microsoft Excel",3)
+                                                        .col-xs-6
+                                                            .row
+                                                                .row
+                                                                    .col-xs-12
+                                                                        p.sub-title Personal Skills
+                                                                    .col-xs-12
+                                                                        .row
+                                                                            +showdot("Creativity",4)
+                                                                            +showdot("Leadership",3)
+                                                                            +showdot("Organization",4)
+                .team-item.col-xs-12.col-sm-6
+                    a(data-toggle="modal" data-target="#long_cv")
+                        img.rounded-circle(src="images/Long_Port.png")
+                    ul.nav
+                        li.nav-item Chu Hai Long
+                        li.nav-item Developer
+                        ul.nav.nav-inline
+                            li.nav-item #[i.nav-link.fa.fa-envelope-0(aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="chuhailong89@gmail.com")]
+                            li.nav-item #[i.nav-link.fa.fa-phone(aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="+84 98 446 200")]
+                            li.nav-item #[i.nav-link.fa.fa-facebook(aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="")]
+                .modal.fade#long_cv(tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+                    .modal-dialog(role="document")
+                        .modal-content
+                            .modal-body
+                                .container-fluid
+                                    .row.cv_header
+                                        .col-xs-12
+                                            ul.float-sm-right
+                                                li #[span Phone:] (+84)0984 462 007
+                                                li #[span Email:] chuhailong89@gmail.com
+                                    .row
+                                        .cv_name.col-xs-12
+                                            h1.display-4.text-uppercase.text-xs-center Chu Hai Long
+                                            h4.display-4.text-capitalize.text-xs-center.medium Developer
+                                    .row#cv_body
+                                        .col-xs-12.summary
+                                            .title #[span.square(style="height: auto") &nbsp;] Summary
+                                            p.padleft35 I'm a software developer working at Phu My Industrial Zone, my current position is developer and maintenance Quality Controll system of Posco SS-Vina Co.,ltd.#[br]I am also care about web developer, you can see a my website project as #[a(href="http:/www.vungchuatravel.com" target="_blank") vungchuatravel.com]. This project base on HTML5, CSS3, bootstrap, Jquery and Laravel Php framework.
+                                    .row
+                                        .col-xs-12.summary
+                                            .title #[span.square(style="height: auto") &nbsp;] Experiences
+                                            table.table.table-striped
+                                                tbody
+                                                    tr
+                                                        th(scope="row") 2012 - 2013
+                                                        td Nha Vung Tau Co.,ltd.#[br]#[span.font-italic.job IT Manager]
+                                                    tr
+                                                        th(scope="row") 2014 - Present
+                                                        td Posco ICT Viet Nam Co.,ltd.#[br]#[span.font-italic.job Software Engineer]
+                                                    tr
+                                                        th(scope="row") Freelancer
+                                                        td Vung Chua Travel Co.,ltd.#[br] #[span.font-italic.job Vung Chua Travel Website vungchuatravel.com]
+                                    .row
+                                        .col-xs-12.summary
+                                            .title #[span.square(style="height: auto") &nbsp;] Skills & Education
+                                            .row.skill
+                                                .col-xs-4
+                                                    .row.skill-group
+                                                        .col-xs-12
+                                                            p.sub-title Professional Skills
+                                                        .col-xs-12
+                                                            .row
+                                                                .col-xs-12
+                                                                    .row
+                                                                        +showdot("HTML5",4)
+                                                                    .row
+                                                                        +showdot("CSS",3)
+                                                                    .row
+                                                                        +showdot("Javascript",4)
+                                                                    .row
+                                                                        +showdot("Laravel",4)
+                                                                    .row
+                                                                        +showdot("Java",3)
+                                                                    .row
+                                                                        +showdot("MySQL",3)
+                                                                    .row
+                                                                        +showdot("Oracle SQL",4)
+                                                    .row.skill-group
+                                                        .col-xs-12
+                                                            p.sub-title Personal Skills
+                                                        .col-xs-12
+                                                            .row
+                                                                +showdot("Creativity",4)
+                                                                +showdot("Teammate",3)
+                                                                +showdot("Organization",4)
+                                                .col-xs-8
+                                                    .row
+                                                        .col-xs-12
+                                                            p.sub-title Education
+                                                            table.table.table-striped
+                                                                tbody
+                                                                    tr
+                                                                        td Higher Diploma in Software Engineering#[br]#[span HaNoi Aptech Computer Education]
+                                                                        td(scope="row") 2008 - 2012

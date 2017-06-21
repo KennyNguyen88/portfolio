@@ -120,7 +120,7 @@ nav{
 }
 #header{
   @extend .hero;
-  background: url('../../../images/hero.jpg') no-repeat center center;
+  background: url('../images/hero.jpg') no-repeat center center;
   color: $primary_color_white;
   a{
     margin-top: 10vh;

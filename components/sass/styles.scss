@@ -1,9 +1,9 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 //reset
-.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-}
+//.container-fluid{
+//  padding-left: 0;
+//  padding-right: 0;
+//}
 body{
   font-family: Roboto, Arial;
 
@@ -160,6 +160,10 @@ nav{
       margin-bottom: 1vh;
     }
   }
+  a{
+    cursor: pointer;
+  }
+
 }
 //aboutus
 #aboutus{
@@ -207,6 +211,11 @@ nav{
       color: $primary_color_yellow;
     }
   }
+  a{
+    &:hover{
+      text-decoration: none;
+    }
+  }
 }
 //social
 #social{
@@ -219,6 +228,7 @@ nav{
       transition: all 0.25s;
     }
   }
+
 }
 //team
 .team-component{

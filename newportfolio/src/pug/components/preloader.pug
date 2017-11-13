@@ -1,0 +1,7 @@
+.preloader
+    .sk-spinner.sk-spinner-circle
+        - var n = 1;
+            while n < 13
+                - var classes = "sk-circle" + n + " sk-circle";
+                div(class=classes)
+                - n++;

@@ -1,0 +1,14 @@
+extends pug/template
+include pug/utilities/mixins
+block append styles
+    link(rel="stylesheet" href="css/scss/style.css")
+block content
+    include pug/layout/home
+    include pug/layout/work
+    //include pug/layout/about
+    include pug/layout/team
+    include pug/layout/portfolio
+    //include pug/layout/price
+    include pug/layout/contact
+block append scripts
+    script(src="js/custom.js")

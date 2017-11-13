@@ -1,0 +1,27 @@
+footer {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  p{
+    padding-top: 20px;
+  }
+  .social-icon {
+    @extend .social-icon;
+    li{
+      a{
+        box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.09);
+        color: $footer-icon-color;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  @-moz-document url-prefix() {
+    #portfolio .col-lg-4,
+    #portfolio .col-md-4 {
+      width: 33.333%;
+    }
+  }
+}

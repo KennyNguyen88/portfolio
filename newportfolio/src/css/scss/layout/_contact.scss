@@ -1,0 +1,50 @@
+#contact{
+  @extend %section-padding;
+  background: $contact-background url('../../images/contact-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: $contact-color;
+
+  .contact-info{
+    div{
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+  }
+  h2{
+    padding-bottom: 20px;
+  }
+  .medium-icon{
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  form{
+    padding-top: 60px;
+  }
+  .form-control {
+    border: 2px solid $contact-color;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  input {
+    height: 40px;
+  }
+  input[type="submit"] {
+    background: $contact-submit-color;
+    border: 3px solid $contact-submit-color;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    height: 50px;
+    color: $contact-color;
+    &:hover{
+      color: $contact-submit-hover-color;
+    }
+  }
+  h3{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}

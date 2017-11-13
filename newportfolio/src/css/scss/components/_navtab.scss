@@ -1,0 +1,37 @@
+.nav-tabs {
+  margin-top: 20px;
+  border-bottom: 1px solid #606060;
+  > li{
+    float: left;
+    margin-bottom: -1px;
+    > a{
+      display: block;
+      color: $about-color;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: 0;
+      border-radius: 0;
+      &:hover{
+        background-color: transparent;
+      }
+    }
+    &.active > a{
+      color: $about-active-tab;
+      @extend %nav-tabs-transparent;
+      &:hover, &:focus{
+        color: $about-active-tab;
+        @extend %nav-tabs-transparent;
+      }
+    }
+  }
+}
+.tab-content {
+  padding-top: 20px;
+  a{
+    color: #0CC;
+    &:hover, &:link{
+      color: #FF0;
+      text-decoration: none;
+    }
+  }
+}

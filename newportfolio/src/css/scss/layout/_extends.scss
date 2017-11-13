@@ -1,0 +1,33 @@
+%section-padding{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+%nav-tabs-transparent{
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: transparent;
+}
+
+.section-title {
+  padding-bottom: 32px;
+  h1 {
+    font-size: 24px;
+  }
+  strong{
+    color: #00C6D7;
+    font-size: 56px;
+  }
+}
+
+.heading {
+  font-size: 20px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.medium-icon {
+  font-size: 32px !important;
+}

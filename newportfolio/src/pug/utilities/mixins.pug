@@ -1,0 +1,39 @@
+mixin mixService(_delay, _h3, _full)
+    if _full
+        .item.col-sm-12.wow.fadeInUp(data-wow-delay=_delay)
+            i&attributes(attributes)
+            h3=_h3
+            hr
+            if block
+                block
+    else
+        .item.col-sm-4.wow.fadeInUp(data-wow-delay=_delay)
+            i&attributes(attributes)
+            h3=_h3
+            hr
+            if block
+                block
+mixin mixTeam(val)
+    .team-wrapper
+        img.img-responsive(src=val["img"])
+        .team-des
+            h4=val["name"]
+            h3=val["position"]
+            hr
+            ul.social-icon
+                li: a(href="#" data-wow-delay="0.3s" title=val["email"]).fa.fa-envelope.wow.fadeIn
+                li: a(href="#" data-wow-delay="0.6s" title=val["phone"]).fa.fa-phone.wow.fadeIn
+                li: a(href="#" data-wow-delay="0.9s" title=val["skype"]).fa.fa-skype.wow.fadeIn
+                li: a(href=val["resume"] data-wow-delay="0.9s").fa.fa-file-pdf-o.wow.fadeIn
+mixin mix03(_value)
+    - var _href = "#"+_value;
+        li&attributes(attributes): a(href=_href aria-controls=_value role="tab" data-toggle="tab")= _value
+mixin mix04(_img, _link)
+    //a(href=_img data-lightbox-gallery="portfolio-gallery")
+    a(href=_link target=_blank)
+        img(src=_img alt="portfolio img")
+mixin mix05(_href, _df, _con, _selected)
+    if _selected
+        li: a(href=_href data-filter=_df).selected.opc-main-bg=_con
+    else
+        li: a(href=_href data-filter=_df).opc-main-bg=_con

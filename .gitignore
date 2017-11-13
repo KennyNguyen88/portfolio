@@ -40,3 +40,6 @@ node_modules
 /builds/production/
 /css/
 /builds/development/fonts/
+/builds/**/*.html
+
+/newportfolio/src/.idea/

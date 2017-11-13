@@ -1,0 +1,35 @@
+include ../utilities/mixins
+section#team
+    .container
+        .row
+            .col-md-12.col-sm-12
+                .section-title
+                    strong OUR TEAM
+                    h1.heading.bold Meet Talented Guys
+                    hr
+            -
+                var imgPath = "images/";
+                var teams = [
+                    {
+                        "img" : imgPath+"Trung_Port.png",
+                        "name" : "Nguyen Duc Trung",
+                        "position" : "Developer",
+                        "email" : "giatrangrua@gmail.com",
+                        "phone" : "01698404430",
+                        "skype" : "giatrangrua",
+                        "resume" : imgPath+"NguyenDucTrung_CV.pdf"
+                    },
+                    {
+                        "img" : imgPath+"Long_Port.png",
+                        "name" : "Chu Hai LOng",
+                        "position" : "Developer",
+                        "email" : "chuhailong89@gmail.com",
+                        "phone" : "098446200",
+                        "skype" : "hailongitzero",
+                        "resume" : imgPath+"Chu_Hai_Long_CV.pdf"
+                    }
+                ]
+            .col-sm-3.col-sm-offset-3.wow.fadeIn(data-wow-delay=0.9)
+                +mixTeam(teams[0])
+            .col-sm-3.wow.fadeIn(data-wow-delay=1.2)
+                +mixTeam(teams[1])

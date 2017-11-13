@@ -1,0 +1,66 @@
+#pricing{
+  @extend %section-padding;
+  text-align: center;
+  .plan{
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.20);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 32px;
+    .plan_title{
+      margin-bottom: 20px;
+    }
+    ul{
+      padding: 0;
+      li{
+        display: block;
+        padding: 12px 0;
+      }
+    }
+  }
+  .medium-icon{
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.20);
+    border-radius: 50%;
+    font-size: 52px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .plan-one{
+    .btn{
+      background-color: $pricing-button-background-style1;
+    }
+  }
+  .plan-two{
+    .btn{
+      background-color: $pricing-button-background-style2;
+    }
+  }
+  .plan-three{
+    .btn{
+      background-color: $pricing-button-background-style3;
+    }
+  }
+  h2{
+    font-size: 52px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  .plan{
+    span{
+      font-size: 16px;
+    }
+    .plan_title{
+      font-weight: 300;
+      letter-spacing: 2px;
+      padding: 30px;
+    }
+    ul{
+      li{
+        font-weight: 500;
+      }
+    }
+  }
+}

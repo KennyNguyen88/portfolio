@@ -1,0 +1,29 @@
+body {
+  background: $body-background;
+  position: relative;
+
+  font-family: $font-stack-primary;
+  font-weight: 400;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  outline: none !important;
+}
+
+hr {
+  width: 180px;
+  border-color: #CCC;
+}
+h1, h2, h3, h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 28px;
+  font-size: 15px;
+}

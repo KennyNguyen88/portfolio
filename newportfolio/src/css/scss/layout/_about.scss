@@ -1,0 +1,5 @@
+#about{
+  @extend %section-padding;
+  background: $about-background;
+  color: $about-color;
+}

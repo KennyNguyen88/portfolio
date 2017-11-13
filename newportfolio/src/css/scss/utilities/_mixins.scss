@@ -1,0 +1,8 @@
+@mixin transform($deg) {
+  -webkit-transform: rotate($deg);
+  transform: rotate($deg);
+}
+@mixin ani_delay($t) {
+  -webkit-animation-delay: $t;
+  animation-delay: $t;
+}

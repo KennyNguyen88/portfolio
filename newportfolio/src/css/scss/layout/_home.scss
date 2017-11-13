@@ -1,0 +1,33 @@
+#home {
+  background-size: cover;
+  background-position: center;
+  color: $home-color;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  hr{
+    width: 240px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+  h3{
+    font-size: 14px;
+  }
+  @media (max-width: 440px) {
+    padding-top: 320px;
+    padding-bottom: 320px;
+    h1{
+      font-size: 22px;
+    }
+    h3{
+      font-size: 12px;
+    }
+  }
+}

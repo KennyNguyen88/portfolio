@@ -1,0 +1,72 @@
+-
+    var pathImg = "images/portfolio/"
+    var portfolios = [
+        {
+            "name": "Vungchuatravel",
+            "link" : "http://www.vungchuatravel.com",
+            "img" : pathImg + "vungchuatravel.png",
+            "cat" : "webdesign"
+        },
+        {
+            "name": "esms_voice",
+            "link" : "https://esms.vn/DichVu/goi-tu-dong-evoice",
+            "img" : pathImg + "esms_page_voice.png",
+            "cat" : "webdesign"
+        },
+        {
+            "name": "esms_price",
+            "link" : "https://esms.vn/Price/SMSPricing",
+            "img" : pathImg + "esms_page_price.png",
+            "cat" : "webdesign"
+        },
+        {
+            "name": "esms_daily",
+            "link" : "https://esms.vn/reseller",
+            "img" : pathImg + "esms_page_daily.png",
+            "cat" : "webdesign"
+        },
+        {
+            "name": "esms_daily",
+            "link" : "https://teraapp.net/agent",
+            "img" : pathImg + "tera.png",
+            "cat" : "webdesign"
+        },
+        {
+            "name": "esms_daily",
+            "link" : "https://teraapp.net/",
+            "img" : pathImg + "tera_landing.png",
+            "cat" : "webdesign"
+        }
+    ]
+section#portfolio
+    .container
+        .row
+            .col-md-12.col-sm-12
+                .section-title
+                    strong OUR PORTFOLIO
+                    h1.heading.bold
+                    hr
+                .iso-section
+                    ul.filter-wrapper.clearfix
+                        +mix05("#","*","All",true)
+                        +mix05("#",".webdesign","WEB DESIGN",false)
+                        +mix05("#",".uiux","UI/UX",false)
+                        +mix05("#",".reactjs","REACTJS",false)
+                        +mix05("#",".mobile","MOBILE",false)
+                    .iso-box-section.wow.fadeIn(data-wow-delay="0.9s")
+                        .iso-box-wrapper.col4-iso-box
+                            each val in portfolios
+                                .iso-box.col-lg-4.col-md-4.col-sm-6(class=val["cat"])
+                                    +mix04(val["img"], val["link"])
+                            //.iso-box.webdesign.col-lg-4.col-md-4.col-sm-6
+                            //    +mix04("images/portfolio-img1.jpg")
+                            //.iso-box.uiux.col-lg-4.col-md-4.col-sm-6
+                            //    +mix04("images/portfolio-img2.jpg")
+                            //.iso-box.webdesign.mobile.col-lg-4.col-md-4.col-sm-6
+                            //    +mix04("images/portfolio-img3.jpg")
+                            //.iso-box.uiux.col-lg-4.col-md-4.col-sm-6
+                            //    +mix04("images/portfolio-img4.jpg")
+                            //.iso-box.reactjs.photoshop.col-lg-4.col-md-4.col-sm-6
+                            //    +mix04("images/portfolio-img5.jpg")
+                            //.iso-box.mobile.col-lg-4.col-md-4.col-sm-6
+                            //    +mix04("images/portfolio-img6.jpg")

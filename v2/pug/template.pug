@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        block title
+            title PNP Team
+        meta(http-equiv="X-UA-Compatibale" content="IE-Edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="keywords" content="")
+        meta(name="description" content="")
+        block styles
+            link(href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css")
+            link(rel="stylesheet" href="scss/style.css")
+    body(data-spy="scroll" data-target=".navbar-collapse" data-offset="50")
+        include components/preloader
+        include layout/header
+        block content
+        block scripts
+            script(src="js/jquery.js")
+            script(src="js/bootstrap.min.js")
+            script(src="js/jquery.scrollTo.min.js")
+            script(src="js/jquery.localScroll.min.js")
+            script(src="js/isotope.js")
+            script(src="js/imagesloaded.min.js")
+            script(src="js/nivo-lightbox.min.js")
+            script(src="js/jquery.backstretch.min.js")
+            script(src="js/wow.min.js")
+            script(src="js/custom.js")

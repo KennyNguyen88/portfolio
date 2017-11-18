@@ -31,15 +31,18 @@ node_modules
 ### Sass template
 .sass-cache/
 *.css.map
-/.idea/
 
+/v1/.idea/
+/v1/builds/development/js/
+/v1/builds/development/css/
+/v1/builds/development/images/
+/v1/builds/production/
+/v1/builds/development/fonts/
+/v1/builds/**/*.html
+/v1/css/
 
-/builds/development/js/
-/builds/development/css/
-/builds/development/images/
-/builds/production/
-/css/
-/builds/development/fonts/
-/builds/**/*.html
+/v2/.idea/
+/v2/**/*.html
+/v2/**/*.css
+v2/images/
 
-/newportfolio/src/.idea/

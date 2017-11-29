@@ -1,0 +1,30 @@
+.advanced-nav li a{
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: flex-start;
+  .icon{
+    font-size: 1.8em;
+    flex: 0 0 1.5em;
+  }
+  .button-text{
+    font-size: 1.8em;
+    span{
+      display: block;
+      font-size: 40%;
+      font-style: italic;
+    }
+  }
+}
+@media screen and (min-width: 30em){
+  .advanced-nav{
+    ul{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      li{
+        display: flex;
+        flex: 1 0 12em;
+      }
+    }
+  }
+}

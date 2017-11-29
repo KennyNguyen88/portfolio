@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        title Css playground - Create a modal with CSS - David Conner
+        link(rel="stylesheet" href="styles.css")
+    body
+        .modal
+            input#modal__trigger(type="checkbox")
+            label(for="modal__trigger") Launch Modal
+            .modal__overlay
+                .modal__wrap
+                    label(for="modal__trigger") &#10006;
+                    h2 This is your modal content
+                    p Some content goes here

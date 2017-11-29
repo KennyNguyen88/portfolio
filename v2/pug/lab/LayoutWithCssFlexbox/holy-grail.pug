@@ -1,0 +1,67 @@
+doctype html
+html(lang="en-US")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title LayoutWithCssFlexbox | Holy Grail
+        link(rel="stylesheet", href="scss/styles.css", type="text/css", media="all")
+    body
+        a.skip-link.screen-reader-text(href="#content") Skip to content
+        .outer-wrap
+            header.masthead
+                .sidebar-switcher
+                    | Select layout:
+                    a.sidebar-left-toggle(href="#")
+                        i.fa.fa-align-left
+                        span.screen-reader-text Move sidebar to the left
+                    a.sidebar-right-toggle(href="#")
+                        i.fa.fa-align-right
+                        span.screen-reader-text Move sidebar to the right
+                    a.no-sidebar-toggle(href="#")
+                        i.fa.fa-align-justify
+                        span.screen-reader-text Remove sidebar
+                    a.hide-sidebar-toggle(href="#")
+                        i.fa.fa-arrow-circle-right
+                        span.screen-reader-text Remove sidebar
+                .centered
+                    .site-branding
+                        h1.site-title Flexbox Demo: Holy Grail Layouts
+                nav.main-menu
+                    | The menu would go here
+            .content
+                main.main-area
+                    article.post-content
+                        h2 One of my favourite movies
+                        p
+                            | My very first encounter with Monty Python was the movie
+                            em Monty Python and the Holy Grail
+                            | . It was playing on TV one night while my brothers and I were home alone. We laughed for two hours straight.
+                        p
+                            | If you haven't watched the movie yet,
+                            strong SPOILER ALERT!
+                            |  We were hooked in from the first frame because of the spectacularly bizarre opening references to Norway. It all comes courtesy of a title designer who rather than printing the proper titles decides to tell a story. Being in Norway it was incredibly amusing to see references to our home country in an English speaking movie.
+                        p What can I say? My brothers and I are easily amused.
+                        p
+                            | For months (if not years) after watching the movie you'd find my brothers and I quoting the movie on a near constant basis.
+                        p My favourite:
+                        p
+                            | "Strange women lying in ponds distributing swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony."
+                        p What can I say? I'm not a monarchist.
+                .sidebar
+                    .squish-container
+                        h3 Explore the Demos:
+                        nav.example-menu
+                            ul
+                                li
+                                    a(href="menus.html") Flexbox Menus
+                                li
+                                    a(href="card-layout.html") Card Layout
+                                li
+                                    a(href="holy-grail.html") Holy Grail
+                                li
+                                    a(href="all-togehter.html") All Together Now
+            footer.footer-area
+                p
+                    | The footer usually appears on the bottom of the page. That's why it's called the "footer".
+        script(type="text/javascript", src="js/libs/jquery-2.1.3.min.js")
+        script(src="js/sidebar-switcher.js" type="text/javascript")

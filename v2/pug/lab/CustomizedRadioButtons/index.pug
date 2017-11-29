@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        meta(http-equiv="Content-Type", content="text/html; charset=UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title Customized Radio Button
+        link(rel="stylesheet", type="text/css", href="styles.css")
+    body
+        article
+            form(method="post", action="http://codifydesign.com/newsletter")
+                h2 Newsletter
+                p Choose a frequency
+                input#frequency-d(type="radio", name="frequency")
+                label(for="frequency-d") Daily
+
+                input#frequency-w(type="radio", name="frequency")
+                label(for="frequency-w") Weekly
+
+                input#frequency-m(type="radio", name="frequency")
+                label(for="frequency-m") Monthly
+
+                input(type="submit", value="Sign me up")

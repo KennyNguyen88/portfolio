@@ -26,27 +26,37 @@ jQuery(document).ready(function($){
 
           var $this = $(this), filterValue = $this.attr('data-filter');
 
-      $container.isotope({ 
-        filter: filterValue,
-        animationOptions: { 
-            duration: 750, 
-            easing: 'linear', 
-            queue: false, 
-        }                
-      });             
+          $container.isotope({
+            filter: filterValue,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+          });
 
-      // don't proceed if already selected 
+          // don't proceed if already selected
 
-      if ( $this.hasClass('selected') ) { 
-        return false; 
-      }
+          if ( $this.hasClass('selected') ) {
+            return false;
+          }
 
-      var filter_wrapper = $this.closest('.filter-wrapper');
-      filter_wrapper.find('.selected').removeClass('selected');
-      $this.addClass('selected');
+          var filter_wrapper = $this.closest('.filter-wrapper');
+          filter_wrapper.find('.selected').removeClass('selected');
+          $this.addClass('selected');
 
-        return false;
-      }); 
+          return false;
+      });
+
+      //Select Cut HTML by default
+      $container.isotope({
+          filter: ".cut",
+          animationOptions: {
+              duration: 750,
+              easing: 'linear',
+              queue: false
+          }
+      });
 
   }
 

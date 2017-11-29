@@ -1,0 +1,83 @@
+doctype html
+html(lang="en")
+    head
+        title CSS Transform and Transition playground
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css')
+        link(rel="stylesheet" href="styles.css")
+    body
+        .container
+            .content.clearfix
+                .photo-container
+                    h3 Transition property, duration
+                    a#btnhover.button(href="#") Download
+                .photo-container
+                    h3 Transition delay
+                    .photo
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                        .photo-overlay
+                            h3 Reflective Rabbit
+                            p Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo.
+                            a.button(href="#") Download
+                .photo-container
+                    h3 Transition timing function
+                    .photo
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                        .photo-overlay
+                            h3 Mountainous Landscape
+                            p Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo.
+                            a.button(href="#") Download #[span.btn-icon]
+            .content.clearfix
+                .photo-container
+                    h3 Transform rotate
+                    .photo.tf#rotate
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                .photo-container
+                    h3 Transform skew
+                    .photo.tf#skew
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                .photo-container
+                    h3 Transform scale
+                    .photo.tf#scale
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+            .content.clearfix
+                .photo-container
+                    h3 Transform origin
+                    .photo.tf#origin
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                .photo-container
+                    h3 Transform translate
+                    .photo.tf#translate
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                .photo-container
+                    h3 Transform slide
+                    .photo.tf#slide
+                        img(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                        .photo-overlay
+                            h3 Reflective Rabbit
+                            p Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo.
+                            a.button(href="#") Download
+            .content.clearfix.threed
+                .photo-container
+                    .photo
+                        img.side-a(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                        .photo-desc.side-b
+                            h3 3D flip Card
+                            p Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tel
+                            a.button(href="#") Download
+                //.photo-container
+                //    .photo
+                //        img.side-a(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                //        .photo-desc.side-b
+                //            h3 3D flip Card
+                //            p Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tel
+                //            a.button(href="#") Download
+                //.photo-container
+                //    .photo
+                //        img.side-a(src="img/photos/1.jpg" alt="Photo of a rabbit")
+                //        .photo-desc.side-b
+                //            h3 3D flip Card
+                //            p Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tel
+                //            a.button(href="#") Download
+
+
+

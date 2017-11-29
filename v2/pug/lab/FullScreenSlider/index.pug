@@ -1,0 +1,23 @@
+doctype html5
+head
+    title Create a Fullscreen slider with CSS - David Conner - Teamtreehouse.com
+    link(rel="stylesheet" href="styles.css")
+body
+    .wrap
+        header
+            label(for="slide-1-trigger") Slide One
+            label(for="slide-2-trigger") Slide Two
+            label(for="slide-3-trigger") Slide Three
+            label(for="slide-4-trigger") Slide Four
+        input#slide-1-trigger(name="slides" type="radio" checked)
+        section.slide.slide-one
+            h1 Pure CSS Slider 1
+        input#slide-2-trigger(name="slides" type="radio")
+        section.slide.slide-two
+            h1 Pure CSS Slider 2
+        input#slide-3-trigger(name="slides" type="radio")
+        section.slide.slide-three
+            h1 Pure CSS Slider 3
+        input#slide-4-trigger(name="slides" type="radio")
+        section.slide.slide-four
+            h1 Pure CSS Slider 4

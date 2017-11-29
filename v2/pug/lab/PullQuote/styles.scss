@@ -1,0 +1,54 @@
+@import "design";
+%bq{
+  position: absolute;
+  font-size: 5.2em;
+}
+blockquote {
+  width: 45%;
+  float: right;
+  margin: 0 26px 100px 75px;
+  padding: 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: "Georgia", serif;
+  color: #0746bb;
+  position: relative;
+  &::before{
+    @extend %bq;
+    content: '\201c';
+    top:20px;
+    left:-50px;
+  }
+  &::after{
+    @extend %bq;
+    content: '\201d';
+    bottom: -42px;
+  }
+  cite{
+    font-size: .6em;
+    font-style: normal;
+    display: block;
+    line-height: 16px;
+    color: #888;
+    position: absolute;
+    top: 110%;
+    padding-left: 60px;
+    a {
+      color: inherit;
+      &:hover{
+        color: #000;
+      }
+    }
+    &::after{
+      content: '';
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: url(images/photo.jpg) no-repeat 0 0;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      left:0;
+    }
+  }
+}

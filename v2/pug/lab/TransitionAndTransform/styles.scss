@@ -1,0 +1,139 @@
+@import "interactions";
+@import "main";
+
+#btnhover{
+  transition-property: all;
+  transition-duration: 1s;
+  &:hover{
+    background-color: #d36a62;
+    border-radius: 1em;
+  }
+}
+
+.photo-overlay{
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+  &:hover{
+    opacity: 1;
+    .button{
+      opacity: 1;
+      position: relative;
+    }
+  }
+  .button{
+    opacity: 0;
+    transition-property: opacity, background, box-shadow ;
+    transition-duration: .5s;
+    transition-delay: .1s, .3s;
+    &:hover{
+      background: rgba(74,137,202,1);
+      box-shadow: 0 0 0 3px rgba(255,255,255,.7);
+      .btn-icon{
+        opacity: 1;
+        left: 80%;
+      }
+    }
+  }
+}
+
+.btn-icon{
+  transition-property: opacity, left;
+  transition-duration: .5s;
+  transition-delay: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.tf{
+  transition-property: all;
+  transition-duration: .5s;
+}
+
+#rotate{
+  &:hover{
+    //transform: rotate(25deg);
+    transform: rotate(2turn);
+  }
+}
+
+#skew{
+  &:hover{
+    transform: skew(24deg, 24deg);
+  }
+}
+#scale{
+  &:hover{
+    transform: scale(1.5);
+  }
+}
+#origin{
+  transform-origin: 0 0;
+  &:hover{
+    transform: rotate(25deg);
+  }
+}
+#translate{
+  &:hover{
+    transform: translate(100px, 100px);
+  }
+}
+#slide{
+  img{
+    transition-duration: .5s;
+  }
+  .photo-overlay{
+    transition-property: all;
+    transition-duration: .5s;
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+  &:hover{
+    img{
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    .photo-overlay{
+      transform: translateX(0);
+    }
+  }
+}
+
+
+.threed{
+  perspective: 700px;
+  .photo{
+    transition: transform .5s;
+    transform-style: preserve-3d;
+    overflow: visible;
+    &:hover{
+      transform: rotateY(-180deg);
+    }
+  }
+  .side-a{
+    max-width: 100%;
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .side-b{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color: #345d88;
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}
+
+
+
+

@@ -1,0 +1,186 @@
+doctype html
+html(lang="en-US")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title LayoutWithCssFlexbox | Menus
+        link(rel="stylesheet", href="scss/styles.css", type="text/css", media="all")
+    body
+        a.skip-link.screen-reader-text(href="#content") Skip to content
+        header.masthead.clear
+            .centered
+                .site-branding
+                    h1.site-title Flexbox Demo: Menus
+        main.main-area
+            .centered
+                section.menu-section
+                    h2.menu-heading Single Level Menu
+                    nav#single-nav.single-nav.menu(role="navigation")
+                        ul
+                            li: a(href="#") Home
+                            li: a(href="#") Food
+                            li: a(href="#") Classes
+                            li: a(href="#") Recipes
+                            li: a(href="#") News
+                            li: a(href="#") About
+                            li: a(href="#") Contact
+                section.menu-section
+                    h2.menu-heading Advanced Menu
+                    nav#advanced-nav.advanced-nav.menu(role="navigation")
+                        ul
+                            li
+                                a(href="#")
+                                    .icon
+                                        i.fa.fa-home
+                                    .button-text
+                                        | Home
+                                        span is where the heart is
+                            li
+                                a(href="#")
+                                    .icon
+                                        i.fa.fa-cutlery
+                                    .button-text
+                                        | Food
+                                        span is nourishment for the soul
+                            li
+                                a(href="#")
+                                    .icon
+                                        i.fa.fa-file-text
+                                    .button-text
+                                        | Recipes
+                                        span guide you on your journey
+                            li
+                                a(href="#")
+                                    .icon
+                                        i.fa.fa-paper-plane
+                                    .button-text
+                                        | News
+                                        span brings new things
+                section.menu-section
+                    h2.menu-heading Multi-level (Drop-Down) Menu
+                    nav#multi-level-nav.multi-level-nav.menu(role="navigation")
+                        ul
+                            li
+                                a(href="#") Home
+                            li.has-children
+                                a(href="#")
+                                    | Food
+                                    button.dropdown-toggle(aria-expanded="false")
+                                        span.screen-reader-text Expand child menu
+                                ul.sub-menu
+                                    li
+                                        a(href="#") Chef for Hire
+                                    li
+                                        a(href="#") Catering
+                                    li
+                                        a(href="#") Restaurant
+                            li.has-children
+                                a(href="#")
+                                    | Classes
+                                    button.dropdown-toggle(aria-expanded="false")
+                                        span.screen-reader-text Expand child menu
+                                ul.sub-menu
+                                    li: a(href="#") Class Schedule
+                                    li: a(href="#") Register
+                                    li: a(href="#") Breakfast Class
+                                    li: a(href="#") Brunch Class
+                                    li: a(href="#") Lunch Class
+                                    li: a(href="#") Dinner Class
+                                    li: a(href="#") Dessert Class
+                                    li: a(href="#") Baking Class
+                                    li: a(href="#") Canning Class
+                                    li: a(href="#") Shopping Class
+                                    li: a(href="#") Tools Class
+                            li
+                                a(href="#") About
+                                ul.sub-menu
+                                    li: a(href="#") The Eat Story
+                                    li: a(href="#") Meet the Chef
+                                    li: a(href="#") Meet the Team
+                                    li: a(href="#") Our Vendors
+                                    li: a(href="#") Legal
+                            li
+                                a(href="#") Contact
+                section.menu-section
+                    h2.menu-heading Social Menu
+                    nav#social-menu.social-menu.menu(role="navigation")
+                        ul
+                            li
+                                a(href="http://twitter.com")
+                                    span.screen-reader-text Twitter
+                            li
+                                a(href="http://facebook.com")
+                                    span.screen-reader-text Facebook
+                            li
+                                a(href="http://linkedin.com")
+                                    span.screen-reader-text LinkedIn
+                            li
+                                a(href="http://youtube.com")
+                                    span.screen-reader-text YouTube
+                            li
+                                a(href="http://instagram.com")
+                                    span.screen-reader-text Instagram
+                section.menu-section
+                    h2.menu-heading Mixed Menus (drop-down + social)
+                    .nav-mixed.menu
+                        nav#multi-level-nav2.multi-level-nav(role="navigation")
+                            ul
+                                li
+                                    a(href="#") Home
+                                li.has-children
+                                    a(href="#")
+                                        | Food
+                                        button.dropdown-toggle(aria-expanded="false")
+                                            span.screen-reader-text Expand child menu
+                                    ul.sub-menu
+                                        li: a(href="#") Chef for Hire
+                                        li: a(href="#") Catering
+                                        li: a(href="#") Restaurant
+                                li.has-children
+                                    a(href="#")
+                                        | Classes
+                                        button.dropdown-toggle(aria-expanded="false")
+                                            span.screen-reader-text Expand child menu
+                                    ul.sub-menu
+                                        li: a(href="#") Class Schedule
+                                            li: a(href="#") Register
+                                            li: a(href="#") Breakfast Class
+                                            li: a(href="#") Brunch Class
+                                            li: a(href="#") Lunch Class
+                                            li: a(href="#") Dinner Class
+                                            li: a(href="#") Dessert Class
+                                            li: a(href="#") Baking Class
+                                            li: a(href="#") Canning Class
+                                            li: a(href="#") Shopping Class
+                                            li: a(href="#") Tools Class
+                                li
+                                    a(href="#") About
+                                    ul.sub-menu
+                                        li: a(href="#") The Eat Story
+                                            li: a(href="#") Meet the Chef
+                                            li: a(href="#") Meet the Team
+                                            li: a(href="#") Our Vendors
+                                            li: a(href="#") Legal
+                                li
+                                    a(href="#") Contact
+                        nav#social-menu2.social-menu(role="navigation")
+                            ul
+                                li
+                                    a(href="http://twitter.com")
+                                        span.screen-reader-text Twitter
+                                li
+                                    a(href="http://facebook.com")
+                                        span.screen-reader-text Facebook
+                                li
+                                    a(href="http://linkedin.com")
+                                        span.screen-reader-text LinkedIn
+                                li
+                                    a(href="http://youtube.com")
+                                        span.screen-reader-text YouTube
+                                li
+                                    a(href="http://instagram.com")
+                                        span.screen-reader-text Instagram
+        footer.footer-area
+            .centered
+        script(type="text/javascript", src="js/libs/jquery-2.1.3.min.js")
+        script(type="text/javascript", src="js/menu-toggle.js")

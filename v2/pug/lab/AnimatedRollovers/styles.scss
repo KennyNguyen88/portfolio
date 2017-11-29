@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100);
+
+body {
+  padding: 70px 0px 0px 65px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  background: #420d20 url(images/background.png) no-repeat 0px 0px;
+}
+
+nav {
+  width: 225px;
+}
+
+#sample01{
+  a.btn {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, .5);
+    padding: 5px 20px 5px 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 0px 0px 10px 0px;
+    color: #fff;
+    width: 200px;
+    transition-property: background, border;
+    transition-duration: .5s;
+    &:hover{
+      background-color: rgba(0,0,0,.4);
+      border-color: #FFF;
+      border-left-width: 15px;
+    }
+  }
+}
+
+#sample02{
+  a.btn {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, .5);
+    padding: 5px 20px 5px 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 0px 0px 10px 0px;
+    color: #fff;
+    width: 200px;
+    transition-property: background, border, padding, width;
+    transition-duration: .5s;
+    position: relative;
+    overflow: hidden;
+    &:hover{
+      background-color: rgba(0,0,0,.4);
+      border-color: #FFF;
+      padding-left: 20px;
+      width: 190px;
+      &::after{
+        left: 0;
+      }
+    }
+    &::after{
+      content: '';
+      display: block;
+      width: 10px;
+      height: 100px;
+      background-color: #fcba68;
+      position: absolute;
+      top: 0;
+      left: -10px;
+      transition: left .5s;
+    }
+  }
+}
+
+#sample03{
+  a.btn {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, .5);
+    padding: 5px 20px 5px 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 0px 0px 10px 0px;
+    color: #fff;
+    width: 200px;
+    transition-property: all;
+    transition-duration: .5s;
+    position: relative;
+    overflow: hidden;
+    line-height: 26px;
+    &:hover{
+      background-color: rgba(0,0,0,.4);
+      border-color: #FFF;
+      padding-left: 20px;
+      width: 190px;
+      letter-spacing: 4px;
+      font-size: 1.1em;
+      &::after{
+        left: 0;
+      }
+    }
+    &::after{
+      content: '';
+      display: block;
+      width: 10px;
+      height: 100px;
+      background-color: #fcba68;
+      position: absolute;
+      top: 0;
+      left: -10px;
+      transition: left .5s;
+    }
+  }
+}
+
+#gallery {
+  position: relative;
+  a{
+    position: absolute;
+    clip: rect(10px,65px,65px,10px);
+    transition: clip .5s;
+    &:hover{
+      clip: rect(0,75px,75px,0);
+    }
+  }
+
+
+}
+

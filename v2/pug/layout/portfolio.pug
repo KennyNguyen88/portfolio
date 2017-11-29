@@ -1,41 +1,134 @@
+//        {
+//            "name": "Vungchuatravel",
+//            "link" : "http://www.vungchuatravel.com",
+//            "img" : pathImg + "vungchuatravel.png",
+//            "cat" : "webdesign"
+//        },
+
+//{
+//"name": "lab_modal",
+//"link" : "pug/lab/Modal/",
+//"img" : pathImg + "lab_accordion_menu.png",
+//"cat" : "lab"
+//}
+
+//{
+//"name": "lab_tooltip",
+//"link" : "pug/lab/Tooltip/",
+//"img" : pathImg + "lab_accordion_menu.png",
+//"cat" : "lab"
+//}
+
 -
     var pathImg = "images/portfolio/"
     var portfolios = [
         {
-            "name": "Vungchuatravel",
-            "link" : "http://www.vungchuatravel.com",
-            "img" : pathImg + "vungchuatravel.png",
-            "cat" : "webdesign"
-        },
-        {
             "name": "esms_voice",
             "link" : "https://esms.vn/DichVu/goi-tu-dong-evoice",
             "img" : pathImg + "esms_page_voice.png",
-            "cat" : "webdesign"
+            "cat" : "cut"
         },
         {
             "name": "esms_price",
             "link" : "https://esms.vn/Price/SMSPricing",
             "img" : pathImg + "esms_page_price.png",
-            "cat" : "webdesign"
+            "cat" : "cut"
         },
         {
             "name": "esms_daily",
             "link" : "https://esms.vn/reseller",
             "img" : pathImg + "esms_page_daily.png",
-            "cat" : "webdesign"
+            "cat" : "cut"
         },
         {
             "name": "esms_daily",
             "link" : "https://teraapp.net/agent",
             "img" : pathImg + "tera.png",
-            "cat" : "webdesign"
+            "cat" : "cut"
         },
         {
             "name": "esms_daily",
             "link" : "https://teraapp.net/",
             "img" : pathImg + "tera_landing.png",
-            "cat" : "webdesign"
+            "cat" : "cut"
+        },
+        {
+            "name": "lab_flexbox_menu",
+            "link" : "pug/lab/LayoutWithCssFlexbox/menus.html",
+            "img" : pathImg + "lab_flexbox_menu.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_flexbox_holygrail",
+            "link" : "pug/lab/LayoutWithCssFlexbox/holy-grail.html",
+            "img" : pathImg + "lab_flexbox_holygrail.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_flexbox_card",
+            "link" : "pug/lab/LayoutWithCssFlexbox/card-layout.html",
+            "img" : pathImg + "lab_flexbox_card.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_angledheader",
+            "link" : "pug/lab/AngledHeaders/",
+            "img" : pathImg + "lab_angledheader.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_animating_background",
+            "link" : "pug/lab/AnimatingBackgroundWithCss/",
+            "img" : pathImg + "lab_animating_background.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_css_only_navigation",
+            "link" : "pug/lab/CssOnlyNavigation/",
+            "img" : pathImg + "lab_cssonlynavigation.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_pullquote",
+            "link" : "pug/lab/PullQuote/",
+            "img" : pathImg + "lab_pullquote.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_css_animated_rollover",
+            "link" : "pug/lab/AnimatedRollovers/",
+            "img" : pathImg + "lab_css_animated_rollover.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_customized_radiobutton",
+            "link" : "pug/lab/CustomizedRadioButtons/",
+            "img" : pathImg + "lab_customized_radiobutton.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_svg_rollover",
+            "link" : "pug/lab/SvgRollover/",
+            "img" : pathImg + "lab_svg_rollover.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_fullscreen_slider",
+            "link" : "pug/lab/FullScreenSlider/",
+            "img" : pathImg + "lab_fullscreen_slider.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_accordion_menu",
+            "link" : "pug/lab/AccordionMenu/",
+            "img" : pathImg + "lab_accordion_menu.png",
+            "cat" : "lab"
+        },
+        {
+            "name": "lab_transition_transform",
+            "link" : "pug/lab/TransitionAndTransform/",
+            "img" : pathImg + "lab_transition_transform.png",
+            "cat" : "lab"
         }
     ]
 section#portfolio
@@ -48,25 +141,14 @@ section#portfolio
                     hr
                 .iso-section
                     ul.filter-wrapper.clearfix
-                        +mix05("#","*","All",true)
-                        +mix05("#",".webdesign","WEB DESIGN",false)
+                        +mix05("#","*","All",false)
+                        +mix05("#",".cut","CUT HTML",true)
                         +mix05("#",".uiux","UI/UX",false)
                         +mix05("#",".reactjs","REACTJS",false)
                         +mix05("#",".mobile","MOBILE",false)
+                        +mix05("#",".lab","LAB",false)
                     .iso-box-section.wow.fadeIn(data-wow-delay="0.9s")
                         .iso-box-wrapper.col4-iso-box
                             each val in portfolios
                                 .iso-box.col-lg-4.col-md-4.col-sm-6(class=val["cat"])
                                     +mix04(val["img"], val["link"])
-                            //.iso-box.webdesign.col-lg-4.col-md-4.col-sm-6
-                            //    +mix04("images/portfolio-img1.jpg")
-                            //.iso-box.uiux.col-lg-4.col-md-4.col-sm-6
-                            //    +mix04("images/portfolio-img2.jpg")
-                            //.iso-box.webdesign.mobile.col-lg-4.col-md-4.col-sm-6
-                            //    +mix04("images/portfolio-img3.jpg")
-                            //.iso-box.uiux.col-lg-4.col-md-4.col-sm-6
-                            //    +mix04("images/portfolio-img4.jpg")
-                            //.iso-box.reactjs.photoshop.col-lg-4.col-md-4.col-sm-6
-                            //    +mix04("images/portfolio-img5.jpg")
-                            //.iso-box.mobile.col-lg-4.col-md-4.col-sm-6
-                            //    +mix04("images/portfolio-img6.jpg")

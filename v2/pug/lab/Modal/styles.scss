@@ -1,0 +1,16 @@
+input {
+  position: absolute;
+  top: -1000px;
+  &:checked ~ .modal__overlay {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 800;
+  }
+}
+
+.modal__overlay {
+  opacity: 0;
+  z-index: -100;
+  transform: scale(.5);
+  transition: all .75s cubic-bezier(0.68, -.55, .265, 1.55);
+}

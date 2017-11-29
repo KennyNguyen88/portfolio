@@ -1,0 +1,51 @@
+$red: #EF3B39;
+$green: #CCDB2A;
+$orange: #FFCC67;
+$blue: #48C2C5;
+body{
+  background-color: white;
+}
+svg{
+  width: 500px;
+  height: 292px;
+}
+.segment{
+  &--red{
+    fill: $red;
+    &:hover{
+      fill: darken($red,20%);
+    }
+  }
+  &--green{
+    fill: $green;
+    &:hover{
+      fill: darken($green,20%);
+    }
+  }
+  &--orange{
+    fill: $orange;
+    &:hover{
+      fill: darken($orange,20%);
+    }
+  }
+  &--blue{
+    fill: $blue;
+  }
+}
+.piece{
+  &:hover{
+    .segment--blue{
+      fill: darken($blue,20%);
+    }
+    .piece--over{
+      display: block;
+    }
+  }
+
+}
+.piece--over{
+  display: none;
+  * {
+    fill: darken($blue,20%);
+  }
+}

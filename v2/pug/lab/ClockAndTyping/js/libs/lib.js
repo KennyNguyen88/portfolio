@@ -1,0 +1,2 @@
+//lib.js
+"use strict";

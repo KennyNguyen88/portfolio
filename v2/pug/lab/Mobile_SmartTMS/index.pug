@@ -1,0 +1,40 @@
+doctype html
+html(lang="en-US")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title Mobile Demo | Smart TMS
+        link(rel="stylesheet" href="owl.carousel.min.css" type="text/css")
+        link(rel="stylesheet" href="owl.theme.default.min.css" type="text/css")
+        style.
+            body{
+                background: white;
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                height: 95vh;
+            }
+body
+        .container
+            .owl-carousel.owl-theme
+                .item: img(src="images/mobile_smarttms_01.png")
+                .item: img(src="images/mobile_smarttms_03.png")
+                .item: img(src="images/mobile_smarttms_02.png")
+                .item: img(src="images/mobile_smarttms_04.png")
+                .item: img(src="images/mobile_smarttms_05.png")
+
+        script(src="jquery.js" type="text/javascript")
+        script(src="owl.carousel.min.js" type="text/javascript")
+        script.
+            $('.owl-carousel').owlCarousel({
+                center: true,
+                items: 2,
+                loop: false,
+                margin: 100,
+                responsive: {
+                    600: {
+                        items: 4
+                    }
+                }
+            });
